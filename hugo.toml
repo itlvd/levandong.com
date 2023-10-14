@@ -899,21 +899,21 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Publisher info
       # 出版者信息
       [params.page.seo.publisher]
-        name = "xxxx"
+        name = "Lê Văn Đông"
         logoUrl = "/images/avatar.webp"
 
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = "xxxx"
+    GitHub = "itlvd"
     Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    Twitter = ""
+    Instagram = "it.lvd"
+    Facebook = "itlvd"
+    Telegram = "itlvd"
     Medium = ""
     Gitlab = ""
-    Youtubelegacy = "xxxx"
+    Youtubelegacy = ""
     Youtubecustom = ""
     Youtubechannel = ""
     Tumblr = ""
@@ -966,15 +966,15 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "xxxx@xxxx.com"
+    Email = "itlvd@outlook.com"
     Resume = "" #goo.gl id
     xda = ""
     kaggle = ""
     discord = ""
     RSS = true
     [params.social.Mastodon]
-      id = "@xxxx"
-      prefix = "https://mastodon.technology/"
+      id = ""
+      prefix = ""
 
   # TypeIt config
   # TypeIt 配置
@@ -1099,9 +1099,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 # Author config
 # 作者配置
 [author]
-  name = "xxxx"
-  email = ""
-  link = ""
+  name = "Lê Văn Đông"
+  email = "itlvd@outlook.com"
+  link = "https://www.levandong.com"
 
 # Sitemap config
 # 网站地图配置
