@@ -132,7 +132,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         [languages.vi.params.search.algolia]
           index = "index.vi"
           appID = "E3MO91RR8O"
-          searchKey = "5bc923af6c1960176039fcff6b0298b9"
+          searchKey = "0aa33cf788b32b72c13fb37c7a28b7f7"
 
       # About page config
       [languages.vi.params.about]
@@ -303,7 +303,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         [languages.en.params.search.algolia]
           index = "index.en"
           appID = "E3MO91RR8O"
-          searchKey = "5bc923af6c1960176039fcff6b0298b9"
+          searchKey = "0aa33cf788b32b72c13fb37c7a28b7f7"
 
       # About page config
       [languages.en.params.about]
