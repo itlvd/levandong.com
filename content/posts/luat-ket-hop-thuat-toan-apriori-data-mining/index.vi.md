@@ -15,10 +15,8 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "Apple-Devices-Preview.webp"
 - name: "featured-image-preview"
-  src: "Apple-Devices-Preview.webp"
+  src: "featured-image-preview.jpg"
 
 lightgallery: true
 ---
