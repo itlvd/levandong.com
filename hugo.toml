@@ -131,8 +131,8 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         absoluteURL = false
         [languages.vi.params.search.algolia]
           index = "index.vi"
-          appID = "UAL0NNJWXE"
-          searchKey = "7b7fbdfb7ee82ee61901f2c6b09b05be"
+          appID = "E3MO91RR8O"
+          searchKey = "5bc923af6c1960176039fcff6b0298b9"
 
       # About page config
       [languages.vi.params.about]
@@ -145,7 +145,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         paramTitle = "Thông tin cá nhân"
         # general description of your site
         # can be write with markdown style
-        description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.dev). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
+        description = "Xin chào, tôi là Lê Văn Đông, tôi là developer đến từ Việt Nam. Blog này được tạo ra nhằm lưu giữ những gì tôi học được, cũng như chia sẻ với các bạn có cùng vấn đề giống như tôi. Blog này sẽ được viết bằng nhiều ngôn ngữ, cụ thể Tiếng Việt và Tiếng Anh. Tôi sẽ rất vui khi được kết nối với các developer khác, bạn có thể liên lạc tôi qua Telegram."
         # description of your status
         [[languages.vi.params.about.status]]
           faIcon = "fa-solid fa-building"
@@ -160,15 +160,15 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           faIcon = "fa-solid fa-map-marker-alt"
           desc = "Hồ Chí Minh, Việt Nam"
         # description of your parameter
-        [[languages.vi.params.about.parameter]]
-          language = "UI/UX"
-          level = "80"
-        [[languages.vi.params.about.parameter]]
-          language = "HTML"
-          level = "70"
-        [[languages.vi.params.about.parameter]]
-          language = "Go"
-          level = "60"
+        # [[languages.vi.params.about.parameter]]
+        #   language = "UI/UX"
+        #   level = "80"
+        # [[languages.vi.params.about.parameter]]
+        #   language = "HTML"
+        #   level = "70"
+        # [[languages.vi.params.about.parameter]]
+        #   language = "Go"
+        #   level = "60"
 
       # Home page config
       [languages.vi.params.home]
@@ -240,28 +240,28 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         url = "/categories/"
         title = ""
         weight = 3
-      [[languages.en.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
-      [[languages.en.menu.main]]
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
-        weight = 5
+      # [[languages.en.menu.main]]
+      #   identifier = "documentation"
+      #   pre = ""
+      #   post = ""
+      #   name = "Docs"
+      #   url = "/categories/documentation/"
+      #   title = ""
+      #   weight = 4
+      # [[languages.en.menu.main]]
+      #   identifier = "about"
+      #   pre = ""
+      #   post = ""
+      #   name = "About"
+      #   url = "/about/"
+      #   title = ""
+      #   weight = 5
       [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fa-brands fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/khusika/FeelIt"
+        url = "https://github.com/itlvd/"
         title = "GitHub"
         weight = 6
     [languages.en.params]
@@ -302,8 +302,8 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         absoluteURL = false
         [languages.en.params.search.algolia]
           index = "index.en"
-          appID = "UAL0NNJWXE"
-          searchKey = "7b7fbdfb7ee82ee61901f2c6b09b05be"
+          appID = "E3MO91RR8O"
+          searchKey = "5bc923af6c1960176039fcff6b0298b9"
 
       # About page config
       [languages.en.params.about]
@@ -739,7 +739,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   # 主页的社交信息设置
   [params.social]
     GitHub = "itlvd"
-    Linkedin = ""
+    Linkedin = "itlvd"
     Twitter = ""
     Instagram = "it.lvd"
     Facebook = "itlvd"
