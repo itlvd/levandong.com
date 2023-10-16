@@ -23,7 +23,7 @@ enableGitInfo = true
 # 是否使用 emoji 代码
 enableEmoji = true
 # UA-PROPERTY_ID or G-MEASUREMENT_ID google analytics code
-googleAnalytics = ""
+# googleAnalytics = ""
 
 ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstoken", "error-remote-getjson"]
 
@@ -370,173 +370,6 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # display image-preview
           imagePreview = true
 
-  [languages.fr]
-    weight = 3
-    # language code
-    languageCode = "fr"
-    # language name
-    languageName = "Français"
-    # whether to include Chinese/Japanese/Korean
-    hasCJKLanguage = false
-    # default amount of posts in each pages
-    paginate = 12
-    # copyright description used only for seo schema
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    # Menu config
-    [languages.fr.menu]
-      [[languages.fr.menu.main]]
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "Postes"
-        url = "/posts/"
-        title = ""
-        weight = 1
-      [[languages.fr.menu.main]]
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Balises"
-        url = "/tags/"
-        title = ""
-        weight = 2
-      [[languages.fr.menu.main]]
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Catégories"
-        url = "/categories/"
-        title = ""
-        weight = 3
-      [[languages.fr.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
-      [[languages.fr.menu.main]]
-        identifier = "about"
-        pre = ""
-        name = "À propos"
-        url = "/about/"
-        title = ""
-        weight = 5
-      [[languages.fr.menu.main]]
-        identifier = "github"
-        pre = "<i class='fa-brands fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/khusika/FeelIt"
-        title = "GitHub"
-        weight = 6
-    [languages.fr.params]
-      # site description
-      description = "À propos du thème FeelIt"
-      # site keywords
-      keywords = ["Thème", "Hugo"]
-      # App icon config
-      [languages.fr.params.app]
-        # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "FeelIt"
-        # whether to omit favicon resource links
-        noFavicon = false
-        # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = ""
-        # Android browser theme color
-        themeColor = "#ffffff"
-        # Safari mask icon color
-        iconColor = "#5bbad5"
-        # Windows v8-10 tile color
-        tileColor = "#da532c"
-      # Search config
-      [languages.fr.params.search]
-        enable = true
-        # type of search engine ("lunr", "algolia")
-        type = "algolia"
-        # max index length of the chunked content
-        contentLength = 4000
-        # placeholder of the search bar
-        placeholder = ""
-        # max number of results length
-        maxResultLength = 10
-        # snippet length of the result
-        snippetLength = 30
-        # HTML tag name of the highlight part in results
-        highlightTag = "em"
-        # whether to use the absolute URL based on the baseURL in search index
-        absoluteURL = false
-        [languages.fr.params.search.algolia]
-          index = "index.fr"
-          appID = "UAL0NNJWXE"
-          searchKey = "7b7fbdfb7ee82ee61901f2c6b09b05be"
-
-      # About page config
-      [languages.fr.params.about]
-        # whether to enable profile on about page
-        # depends on .Site.Params.home.profile.enable
-        enable = true
-        # whether to enable param layout
-        param = true
-        # title for param layout
-        paramTitle = "Informations Personnelles"
-        # general description of your site
-        # can be write with markdown style
-        description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.dev). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
-        # description of your status
-        [[languages.fr.params.about.status]]
-          faIcon = "fa-solid fa-building"
-          title = "Compagnie"
-          desc = "FeelIt"
-        [[languages.fr.params.about.status]]
-          faIcon = "fa-solid fa-briefcase fa-fw"
-          title = "Occupation"
-          desc = "Indépendant"
-        [[languages.fr.params.about.status]]
-          title = "Lieu"
-          faIcon = "fa-solid fa-map-marker-alt"
-          desc = "Terre"
-        # description of your parameter
-        [[languages.fr.params.about.parameter]]
-          language = "UI/UX"
-          level = "80"
-        [[languages.fr.params.about.parameter]]
-          language = "HTML"
-          level = "70"
-        [[languages.fr.params.about.parameter]]
-          language = "Go"
-          level = "60"
-
-      # Home page config
-      [languages.fr.params.home]
-        # amount of RSS pages
-        rss = 10
-        # Home page profile
-        [languages.fr.params.home.profile]
-          enable = true
-          # Gravatar Email for preferred avatar in home page
-          gravatarEmail = ""
-          # URL of avatar shown in home page
-          avatarURL = "/images/avatar.webp"
-          # title shown in home page (HTML format is supported)
-          title = ""
-          # subtitle shown in home page (HTML format is supported)
-          subtitle = "Un thème Hugo simple, élégant et efficace"
-          # whether to use typeit animation for subtitle
-          typeit = true
-          # whether to show social links
-          social = true
-          # disclaimer (HTML format is supported)
-          disclaimer = ""
-        # Home page posts
-        [languages.fr.params.home.posts]
-          enable = true
-          # special amount of posts in each home posts page
-          paginate = 6
-          # display image-preview
-          imagePreview = true
-
 [params]
   # FeelIt theme version
   # FeelIt 主题版本
@@ -555,7 +388,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
-  images = ["/logo.png"]
+  images = ["./logo.png"]
   # whether to enable CSS and JS source mapping
   SourceMap = false
 
@@ -580,7 +413,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = ""
+      logo = "./logo.png"
       # title name
       # 标题名称
       name = "Dong's Notes"
@@ -689,7 +522,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # 是否显示原始 Markdown 文档内容的链接
     linkToMarkdown = true
     # whether to show link to improve the article
-    improveArticle = "https://github.com/khusika/FeelIt/edit/main/exampleSite/content/"
+    improveArticle = "https://github.com/itlvd/blogspot/edit/main/content/"
     # whether to show the full text content in RSS
     # 是否在 RSS 中显示全文内容
     rssFullText = false
@@ -704,7 +537,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       # 是否使侧边目录自动折叠展开
-      auto = true
+      auto = false
     # Code config
     # 代码配置
     [params.page.code]
@@ -717,7 +550,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
-      enable = false
+      enable = true
       # default block delimiter is $$ ... $$ and \\[ ... \\]
       # 默认块定界符是 $$ ... $$ 和 \\[ ... \\]
       blockLeftDelimiter = ""
@@ -794,20 +627,20 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
-        shortname = ""
+        shortname = "levandong"
       # Vssue comment config (https://github.com/meteorlxy/vssue)
       # Vssue 评论系统设置 (https://github.com/meteorlxy/vssue)
       [params.page.comment.vssue]
-        enable = true
+        enable = false
         # Vssue platform API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
         # Vssue 平台 API ("bitbucket", "gitea", "gitee", "github", "github-v4", "gitlab")
-        platform = "github"
-        owner = "khusika"
-        repo = "comments"
-        clientId = "85f66799bb256a5064be"
+        platform = ""
+        owner = ""
+        repo = ""
+        clientId = ""
         clientSecret = ""
       # Gitalk comment config (https://github.com/gitalk/gitalk)
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
@@ -821,10 +654,10 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
         enable = false
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+        appId = ""
+        appKey = ""
         placeholder = ""
-        avatar = "mp"
+        avatar = ""
         meta= ""
         pageSize = 10
         lang = ""
@@ -972,9 +805,6 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     kaggle = ""
     discord = ""
     RSS = true
-    [params.social.Mastodon]
-      id = ""
-      prefix = ""
 
   # TypeIt config
   # TypeIt 配置
@@ -1136,9 +966,9 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 
 # Options to make output .md files
 # 用于输出 Markdown 格式文档的设置
-[mediaTypes]
-  [mediaTypes."text/plain"]
-    suffixes = ["md"]
+# [mediaTypes]
+#   [mediaTypes."text/plain"]
+#     suffixes = ["md"]
 
 # Options to make output .md files
 # 用于输出 Markdown 格式文档的设置

@@ -16,9 +16,9 @@ toc:
 
 resources:
 - name: "featured-image"
-  src: "./featured-image-preview.jpg"
+  src: "Apple-Devices-Preview.webp"
 - name: "featured-image-preview"
-  src: "./featured-image-preview.jpg"
+  src: "Apple-Devices-Preview.webp"
 
 lightgallery: true
 ---
