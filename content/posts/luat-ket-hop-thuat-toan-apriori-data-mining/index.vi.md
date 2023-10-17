@@ -141,7 +141,7 @@ Trước khi đi tiếp, ta đi tìm ý nghĩa của bảng trên. Sữa có đ�
 
 Nhưng các bạn thấy tìm kiểu $\\%$ thấy cực quá, tính toán nhiều, nên đổi sang số lần xuất hiện cho dễ. $s_{min}=50\\%=2$ lần xuất hiện. $50\\%$ của 4 hoá đơn là 2.
 
-Tới bước này, chúng ta sẽ so sánh và chỉ chọn những items nào $\geqslant s_min$​. Nên ta chỉ lấy items nào $\geqslant 2$ ta có được tập phổ biến $L_1$:
+Tới bước này, chúng ta sẽ so sánh và chỉ chọn những items nào $\geqslant s_{min}$​. Nên ta chỉ lấy items nào $\geqslant 2$ ta có được tập phổ biến $L_1$:
 
 | Items | s |
 | --- | --- |
