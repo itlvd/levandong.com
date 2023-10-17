@@ -3,7 +3,7 @@ baseURL = "https://www.levandong.com"
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "vi"
 # theme 
-# 主题
+# 主题 
 theme = "FeelIt"
 # themes directory
 # 主题目录
