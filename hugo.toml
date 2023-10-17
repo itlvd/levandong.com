@@ -7,10 +7,10 @@ defaultContentLanguage = "vi"
 theme = "FeelIt"
 # themes directory
 # 主题目录
-themesDir = "./themes/"
+themesDir = "./themes/" 
 
 # website title
-# 网站标题
+# 网站标题 
 title = "Dong's Notes"
 
 # whether to use robots.txt
