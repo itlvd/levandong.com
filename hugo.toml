@@ -132,10 +132,10 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         # can be write with markdown style
         description = "Xin chào, tôi là Lê Văn Đông, tôi là developer đến từ Việt Nam. Blog này được tạo ra nhằm lưu giữ những gì tôi học được, cũng như chia sẻ với các bạn có cùng vấn đề giống như tôi. Blog này sẽ được viết bằng nhiều ngôn ngữ, cụ thể Tiếng Việt và Tiếng Anh. Tôi sẽ rất vui khi được kết nối với các developer khác, bạn có thể liên lạc tôi qua Telegram."
         # description of your status
-        # [[languages.vi.params.about.status]]
-        #   faIcon = "fa-solid fa-building"
-        #   title = "Công ty"
-        #   desc = "DXC Technology"
+        [[languages.vi.params.about.status]]
+          faIcon = "fa-solid fa-building"
+          title = "Công ty"
+          desc = "DXC Technology"
         [[languages.vi.params.about.status]]
           faIcon = "fa-solid fa-briefcase fa-fw"
           title = "Nghề nghiệp"
