@@ -1,27 +1,17 @@
 baseURL = "https://www.levandong.com"
-# [en, zh-cn, fr, pl, ...] determines default content language
-# [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "vi"
-# theme 
-# 主题 
+
 theme = "FeelIt"
-# themes directory
-# 主题目录
 themesDir = "./themes/" 
 
-# website title
-# 网站标题 
 title = "Dong's Notes"
 
-# whether to use robots.txt
-# 是否使用 robots.txt
 enableRobotsTXT = true
-# whether to use git commit log
-# 是否使用 git 信息
-enableGitInfo = true
-# whether to use emoji code
-# 是否使用 emoji 代码
+
+enableGitInfo = false
+
 enableEmoji = true
+
 # UA-PROPERTY_ID or G-MEASUREMENT_ID google analytics code
 # googleAnalytics = ""
 
@@ -30,15 +20,10 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 [languages]
   [languages.vi]
     weight = 1
-    # language code
     languageCode = "vi"
-    # language name
     languageName = "Tiếng Việt"
-    # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
-    # default amount of posts in each pages
     paginate = 12
-    # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
     [languages.vi.menu]
@@ -147,10 +132,10 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         # can be write with markdown style
         description = "Xin chào, tôi là Lê Văn Đông, tôi là developer đến từ Việt Nam. Blog này được tạo ra nhằm lưu giữ những gì tôi học được, cũng như chia sẻ với các bạn có cùng vấn đề giống như tôi. Blog này sẽ được viết bằng nhiều ngôn ngữ, cụ thể Tiếng Việt và Tiếng Anh. Tôi sẽ rất vui khi được kết nối với các developer khác, bạn có thể liên lạc tôi qua Telegram."
         # description of your status
-        [[languages.vi.params.about.status]]
-          faIcon = "fa-solid fa-building"
-          title = "Công ty"
-          desc = "DXC Technology"
+        # [[languages.vi.params.about.status]]
+        #   faIcon = "fa-solid fa-building"
+        #   title = "Công ty"
+        #   desc = "DXC Technology"
         [[languages.vi.params.about.status]]
           faIcon = "fa-solid fa-briefcase fa-fw"
           title = "Nghề nghiệp"
@@ -176,7 +161,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         rss = 10
         # Home page profile
         [languages.vi.params.home.profile]
-          enable = true
+          enable = false
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = "itlvd@outlook.com"
           # URL of avatar shown in home page
@@ -385,7 +370,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   fingerprint = ""
   # date format
   # 日期格式
-  dateFormat = "2006-01-02"
+  dateFormat = "02-01-2006"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = [""]
@@ -395,7 +380,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   # PWA config
   [params.pwa]
     # whether to enable PWA support
-    enable = true
+    enable = false
     # service-worker version
     version = "1.0.2"
 
@@ -464,7 +449,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     paginate = 20
     # date format (month and day)
     # 日期格式 (月和日)
-    dateFormat = "01-02"
+    dateFormat = "02-01"
     # amount of RSS pages
     # RSS 文章数目
     rss = 10
@@ -477,7 +462,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     paginate = 20
     # date format (month and day)
     # 日期格式 (月和日)
-    dateFormat = "01-02"
+    dateFormat = "02-01"
     # amount of RSS pages
     # RSS 文章数目
     rss = 10
@@ -546,7 +531,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       copy = true
       # the maximum number of lines of displayed code by default
       # 默认展开显示的代码行数
-      maxShownLines = 10
+      maxShownLines = 20
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
@@ -595,7 +580,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       enable = true
       Twitter = true
       Facebook = true
-      Linkedin = false
+      Linkedin = true
       Whatsapp = false
       Pinterest = false
       Tumblr = false
@@ -627,7 +612,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
-        enable = true
+        enable = false
         # Disqus shortname to use Disqus in posts
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
         shortname = "levandong"
@@ -936,7 +921,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 # Sitemap config
 # 网站地图配置
 [sitemap]
-  changefreq = "weekly"
+  changefreq = "daily"
   filename = "sitemap.xml"
   priority = 0.5
 
