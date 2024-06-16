@@ -1,7 +1,7 @@
 baseURL = "https://www.levandong.com"
 defaultContentLanguage = "vi"
 
-theme = "FeelIt"
+theme = "FixIt"
 themesDir = "./themes/" 
 
 title = "Dong's Notes"
