@@ -62,22 +62,22 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         url = "/categories/documentation/"
         title = ""
         weight = 4
-      [[languages.vi.menu.main]]
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "Về tôi"
-        url = "/about/"
-        title = ""
-        weight = 5
-      [[languages.vi.menu.main]]
-        identifier = "github"
-        pre = "<i class='fa-brands fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/itlvd"
-        title = "GitHub"
-        weight = 6
+      # [[languages.vi.menu.main]]
+      #   identifier = "about"
+      #   pre = ""
+      #   post = ""
+      #   name = "Về tôi"
+      #   url = "/about/"
+      #   title = ""
+      #   weight = 5
+      # [[languages.vi.menu.main]]
+      #   identifier = "github"
+      #   pre = "<i class='fa-brands fa-github fa-fw'></i>"
+      #   post = ""
+      #   name = ""
+      #   url = "https://github.com/itlvd"
+      #   title = "GitHub"
+      #   weight = 6
     [languages.vi.params]
       # site description
       description = "Chia sẻ kiến thức"
@@ -123,7 +123,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       [languages.vi.params.about]
         # whether to enable profile on about page
         # depends on .Site.Params.home.profile.enable
-        enable = true
+        enable = false
         # whether to enable param layout
         param = true
         # title for param layout
@@ -161,7 +161,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         rss = 10
         # Home page profile
         [languages.vi.params.home.profile]
-          enable = true
+          enable = false
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = "itlvd@outlook.com"
           # URL of avatar shown in home page
@@ -180,7 +180,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         [languages.vi.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 6
+          paginate = 10
           # display image-preview
           imagePreview = true
 
@@ -241,23 +241,23 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       #   url = "/about/"
       #   title = ""
       #   weight = 5
-      [[languages.en.menu.main]]
-        identifier = "github"
-        pre = "<i class='fa-brands fa-github fa-fw'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/itlvd/"
-        title = "GitHub"
-        weight = 6
+      # [[languages.en.menu.main]]
+      #   identifier = "github"
+      #   pre = "<i class='fa-brands fa-github fa-fw'></i>"
+      #   post = ""
+      #   name = ""
+      #   url = "https://github.com/itlvd/"
+      #   title = "GitHub"
+      #   weight = 6
     [languages.en.params]
       # site description
-      description = "About FeelIt Theme"
+      description = "Dong's Notes"
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "FeelIt"
+        title = "Dong's Notes"
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
@@ -294,7 +294,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       [languages.en.params.about]
         # whether to enable profile on about page
         # depends on .Site.Params.home.profile.enable
-        enable = true
+        enable = false
         # whether to enable param layout
         param = true
         # title for param layout
@@ -332,7 +332,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         rss = 10
         # Home page profile
         [languages.en.params.home.profile]
-          enable = true
+          enable = false
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = "itlvd@outlook.com"
           # URL of avatar shown in home page
@@ -351,7 +351,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         [languages.en.params.home.posts]
           enable = true
           # special amount of posts in each home posts page
-          paginate = 6
+          paginate = 10
           # display image-preview
           imagePreview = true
 
@@ -392,10 +392,10 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     [params.header.title]
       # URL of the LOGO
       # LOGO 的 URL
-      logo = ""
+      logo = "./images/logo.png"
       # title name
       # 标题名称
-      name = "Dong's Notes"
+      name = ""
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
@@ -427,7 +427,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
     author = true
     # site creation time
     # 网站创立年份
-    since = 2023
+    since = 2019
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
     icp = ""
@@ -516,7 +516,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       keepStatic = false
       # whether to make the table of the contents in the sidebar automatically collapsed
       # 是否使侧边目录自动折叠展开
-      auto = false
+      auto = true
     # Code config
     # 代码配置
     [params.page.code]
@@ -606,7 +606,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
         shortname = "levandong"
@@ -712,7 +712,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # 出版者信息
       [params.page.seo.publisher]
         name = "Lê Văn Đông"
-        logoUrl = "/images/avatar.webp"
+        logoUrl = "/images/logo.png"
 
   # Social config in home page
   # 主页的社交信息设置
@@ -815,7 +815,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
   [params.seo]
     # image URL
     # 图片 URL
-    image = "/images/Apple-Devices-Preview.webp"
+    image = "/images/logo.png"
     # thumbnail URL
     # 缩略图 URL
     thumbnailUrl = "/images/screenshot.png"
