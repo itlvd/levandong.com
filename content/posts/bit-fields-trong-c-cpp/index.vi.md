@@ -12,6 +12,8 @@ toc:
   auto: false
 
 resources:
+- name: "featured-image"
+  src: "featured-image-preview.webp"
 - name: "featured-image-preview"
   src: "featured-image-preview.webp"
 
@@ -117,6 +119,6 @@ Gia tri cua xx khi a.xx = 4: 0
 
 Ở giá trị của biến $a.xx=4$ do nó vượt quá thể hiện của 2 bits (số lượng thể hiện: $2^2=4$ và thể hiện là $=\\lbrace 0,1,2,3 \\rbrace$). Lúc đầu, số 4 ở hệ nhị phân là 100, nhưng ta chỉ lấy 2 bits cho nên dãy bit mà nó lấy là $00$ ở hệ thập phân là $0$ (khác với mảng, bit duyệt từ phải sang trái). Đó là lý do mà khi gán vượt khỏi range của bits thì nó quay về giá trị đầu tiên.
 
-## Tổng kết:
+## Tổng kết
 
 Bài viết nêu khái niệm, cách sử dụng bit fields trong lập trình. Và trường hợp nên sử dụng nó, lúc code bài tập thì cũng không cần quá kiêng dè, máy mạnh to thì cứ tạo cho sướng không cần tiết kiệm bộ nhớ, vì mục đích code luyện tay không phải code trên những phần cứng hạn hẹp dung lượng.
