@@ -16,7 +16,7 @@ toc:
 
 resources:
 - name: "featured-image-preview"
-  src: "featured-image-preview.jpg"
+  src: "featured-image-preview.webp"
 
 lightgallery: true
 ---
@@ -189,7 +189,7 @@ Ta không thể tìm được tập ứng viên $C4$​ vì vậy $C4=\emptyset$
 
 Dưới đây là bức hình mô tả tổng quan lại quá trình trên, với *A = sữa, B = bánh, C = chuối, D = nước lọc, E = táo*.
 
-![apriori](./apriori-demo.png)
+![apriori](./apriori-demo.webp)
 
 Ta có được tập phổ biến ta mới tìm xem luật kết hợp thế nào?
 
