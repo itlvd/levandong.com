@@ -3,4 +3,4 @@
 	url = https://github.com/itlvd/FixIt.git
 [submodule "themes/FeelIt"]
 	path = themes/FeelIt
-	url = git@github.com:itlvd/FeelIt.git
+	url = https://github.com/itlvd/FeelIt.git
