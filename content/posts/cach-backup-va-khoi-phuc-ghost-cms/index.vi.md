@@ -6,7 +6,7 @@ author: "Lê Văn Đông"
 authorLink: "https://www.levandong.com"
 
 tags: ["Linux", "VPS"]
-categories: ["Tips"]
+categories: ["Linux", "Tips"]
 
 toc:
   auto: false
