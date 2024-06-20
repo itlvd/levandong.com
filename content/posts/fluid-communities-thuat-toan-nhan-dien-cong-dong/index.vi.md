@@ -112,9 +112,9 @@ Các bạn có thấy 2 cách chọn điểm khác nhau sẽ dẫn đến kết 
 
 ## D. Kết luận
 
-Thật ra, tôi viết bài này vì khi xưa tìm hiểu thì không có thông tin bài viết về thuật toán này bằng tiếng Việt. Nên tôi muốn chia sẽ nội dung này bằng tiếng việt để giúp mọi người có thể tiếp cận dễ dàng hơn. Tôi mong rằng bài viết này có thể giúp bạn trong quá trình tìm hiểu.
+Thật ra, tôi viết bài này vì khi xưa tìm hiểu thì không có thông tin bài viết về thuật toán này bằng tiếng Việt. Nên tôi muốn chia sẽ nội dung này bằng tiếng Việt để giúp mọi người có thể tiếp cận dễ dàng hơn. Tôi mong rằng bài viết này có thể giúp bạn trong quá trình tìm hiểu.
 
-Ngoài ra, nếu bạn có nhu cầu tìm hiểu thêm. Tôi có tìm hiểu 2 thuật toán Thuật toán Girvan – Newman và Thuật toán Fluid Communities. Tôi cũng có so sánh tốc độ và rút trích một vài thông tin. Bạn có thể tham khảo [tại đây](https://1drv.ms/b/s!Ar_yOq_BzQ59hY53jEYkl_cOdw6Y-w?e=V4sFFb)
+Ngoài ra, nếu bạn có nhu cầu tìm hiểu thêm. Tôi có tìm hiểu 2 thuật toán Thuật toán Girvan – Newman và Thuật toán Fluid Communities. Tôi cũng có so sánh tốc độ và rút trích một vài thông tin. Bạn có thể tham khảo [tại đây](https://1drv.ms/b/s!Ar_yOq_BzQ59hY53jEYkl_cOdw6Y-w?e=V4sFFb).
 
 ## E. Tham khảo
 
