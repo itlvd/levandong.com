@@ -22,7 +22,7 @@ lightgallery: true
 
 ---
 
-# A. Dẫn nhập
+## A. Dẫn nhập
 
 Liệu rằng các bạn đã từng sử dụng mạng xã hội bao giờ chưa? Giả sử mỗi người tham gia mạng xã hội là một node và mối liên hệ của mỗi người là một liên kết giữa các node. Thì chúng ta sẽ có hình mô tả như dưới đây
 
@@ -35,7 +35,7 @@ Trước tiên, chúng ta cần tìm hiểu tổng quan về thuật toán này 
 >  Đây là thuật toán học không giám sát. Tuy nhiên, cần biết trước số lượng cộng đồng thì thuật toán này mới có thể hoạt động được. Ý tưởng dựa trên việc: nút đang xét sẽ thuộc về cộng đồng có tổng trọng số kết nối tới nút đó là lớn nhất.
 
 
-# B. Mô tả chi tiết hoạt động
+## B. Mô tả chi tiết hoạt động
 
 Mới đầu, tất cả các đỉnh chưa có lớp cụ thể. Cho nên, ta sẽ gán k lớp vào k điểm bất kì.
 
@@ -43,11 +43,11 @@ Sau đó, ở lần lặp đầu tiên, ta xét một điểm ngẫu nhiên thu�
 
 Chắc hẳn đọc một đoạn nhiều dòng, bạn sẽ thấy hơi khó hiểu, ta có thể đến ngay với ví dụ để có thể dễ hiểu hơn.
 
-# C. Ví dụ
+## C. Ví dụ
 
-## Triển khai thuật toán
+### Triển khai thuật toán
 
-### Triển khai với 2 điềm bắt đầu là C và D.
+#### Triển khai với 2 điềm bắt đầu là C và D.
 
 Mới đầu, ta gán ngẫu nhiên đỉnh C thuộc lớp đỏ, D thuộc lớp xanh và với trọng số là 1. Và điểm hiện tại đang xét là đỉnh B.
 
@@ -76,7 +76,7 @@ Ta có thể tính được trọng số của C khi thuộc lớp đỏ là 0.6
 Đến vòng lặp thứ 2, ta không thể tìm thấy đỉnh nào thuộc lớp mới nữa, nên thuật toán dừng lại.
 
 
-### Triển khai với 2 điểm bắt đầu là B và G
+#### Triển khai với 2 điểm bắt đầu là B và G
 
 Giả sử như bây giờ chúng ta thử chọn random 2 điểm bắt đầu ở một vị trí khác là G và B.
 
@@ -100,7 +100,7 @@ Các bạn có thấy 2 cách chọn điểm khác nhau sẽ dẫn đến kết 
 
 > Do vậy, chúng ta có thể thấy cách chọn điểm cũng ảnh hưởng đến tốc độ chạy của thuật toán.
 
-## Nhận xét thuật toán
+### Nhận xét thuật toán
 
 - Tổng trọng số của các đỉnh thuộc một lớp là bằng 1.
 
@@ -110,13 +110,13 @@ Các bạn có thấy 2 cách chọn điểm khác nhau sẽ dẫn đến kết 
 
 - Cách chọn điểm để duyệt cũng ảnh hưởng đến tốc độ tìm k lớp thoả mãn.
 
-# D. Kết luận
+## D. Kết luận
 
 Thật ra, tôi viết bài này vì khi xưa tìm hiểu thì không có thông tin bài viết về thuật toán này bằng tiếng Việt. Nên tôi muốn chia sẽ nội dung này bằng tiếng việt để giúp mọi người có thể tiếp cận dễ dàng hơn. Tôi mong rằng bài viết này có thể giúp bạn trong quá trình tìm hiểu.
 
 Ngoài ra, nếu bạn có nhu cầu tìm hiểu thêm. Tôi có tìm hiểu 2 thuật toán Thuật toán Girvan – Newman và Thuật toán Fluid Communities. Tôi cũng có so sánh tốc độ và rút trích một vài thông tin. Bạn có thể tham khảo [tại đây](https://1drv.ms/b/s!Ar_yOq_BzQ59hY53jEYkl_cOdw6Y-w?e=V4sFFb)
 
-# E. Tham khảo
+## E. Tham khảo
 
 [Fluid Communities: A Competitive, Scalable and Diverse Community Detection Algorithm](https://www.pnas.org/doi/epdf/10.1073/pnas.122653799)
 
