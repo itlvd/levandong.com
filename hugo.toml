@@ -186,8 +186,8 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
 
   [languages.en]
     weight = 1
-    languageCode = "vi"
-    languageName = "Tiếng Việt"
+    languageCode = "en"
+    languageName = "English"
     hasCJKLanguage = false
     paginate = 12
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
