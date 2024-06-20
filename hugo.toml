@@ -185,16 +185,11 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           imagePreview = true
 
   [languages.en]
-    weight = 2
-    # language code
-    languageCode = "en"
-    # language name
-    languageName = "English"
-    # whether to include Chinese/Japanese/Korean
+    weight = 1
+    languageCode = "vi"
+    languageName = "Tiếng Việt"
     hasCJKLanguage = false
-    # default amount of posts in each pages
     paginate = 12
-    # copyright description used only for seo schema
     copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
     [languages.en.menu]
@@ -225,33 +220,33 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         url = "/categories/"
         title = ""
         weight = 3
-      # [[languages.en.menu.main]]
+      # [[languages.vi.menu.main]]
       #   identifier = "documentation"
       #   pre = ""
       #   post = ""
-      #   name = "Docs"
+      #   name = "Tài liệu"
       #   url = "/categories/documentation/"
       #   title = ""
       #   weight = 4
-      # [[languages.en.menu.main]]
+      # [[languages.vi.menu.main]]
       #   identifier = "about"
       #   pre = ""
       #   post = ""
-      #   name = "About"
+      #   name = "Về tôi"
       #   url = "/about/"
       #   title = ""
       #   weight = 5
-      # [[languages.en.menu.main]]
+      # [[languages.vi.menu.main]]
       #   identifier = "github"
       #   pre = "<i class='fa-brands fa-github fa-fw'></i>"
       #   post = ""
       #   name = ""
-      #   url = "https://github.com/itlvd/"
+      #   url = "https://github.com/itlvd"
       #   title = "GitHub"
       #   weight = 6
     [languages.en.params]
       # site description
-      description = "Dong's Notes"
+      description = "Shareing knowledge"
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
@@ -286,45 +281,45 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         # whether to use the absolute URL based on the baseURL in search index
         absoluteURL = false
         [languages.en.params.search.algolia]
-          index = "index.en"
+          index = "index.vi"
           appID = "E3MO91RR8O"
           searchKey = "5bc923af6c1960176039fcff6b0298b9"
 
       # About page config
-      [languages.en.params.about]
-        # whether to enable profile on about page
-        # depends on .Site.Params.home.profile.enable
-        enable = false
-        # whether to enable param layout
-        param = true
-        # title for param layout
-        paramTitle = "Personal Information"
-        # general description of your site
-        # can be write with markdown style
-        description = "[FeelIt](https://github.com/khusika/FeelIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Khusika](https://khusika.dev). It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt)."
-        # description of your status
-        [[languages.en.params.about.status]]
-          faIcon = "fa-solid fa-building"
-          title = "Company"
-          desc = "FeelIt"
-        [[languages.en.params.about.status]]
-          faIcon = "fa-solid fa-briefcase fa-fw"
-          title = "Occupation"
-          desc = "Freelancer"
-        [[languages.en.params.about.status]]
-          title = "Location"
-          faIcon = "fa-solid fa-map-marker-alt"
-          desc = "Earth"
-        # description of your parameter
-        [[languages.en.params.about.parameter]]
-          language = "UI/UX"
-          level = "80"
-        [[languages.en.params.about.parameter]]
-          language = "HTML"
-          level = "70"
-        [[languages.en.params.about.parameter]]
-          language = "Go"
-          level = "60"
+      # [languages.vi.params.about]
+      #   # whether to enable profile on about page
+      #   # depends on .Site.Params.home.profile.enable
+      #   enable = false
+      #   # whether to enable param layout
+      #   param = true
+      #   # title for param layout
+      #   paramTitle = "Thông tin cá nhân"
+      #   # general description of your site
+      #   # can be write with markdown style
+      #   description = "Xin chào, tôi là Lê Văn Đông, tôi là developer đến từ Việt Nam. Blog này được tạo ra nhằm lưu giữ những gì tôi học được, cũng như chia sẻ với các bạn có cùng vấn đề giống như tôi. Blog này sẽ được viết bằng nhiều ngôn ngữ, cụ thể Tiếng Việt và Tiếng Anh. Tôi sẽ rất vui khi được kết nối với các developer khác, bạn có thể liên lạc tôi qua Telegram."
+      #   # description of your status
+      #   # [[languages.vi.params.about.status]]
+      #   #   faIcon = "fa-solid fa-building"
+      #   #   title = "Công ty"
+      #   #   desc = "DXC Technology"
+      #   [[languages.vi.params.about.status]]
+      #     faIcon = "fa-solid fa-briefcase fa-fw"
+      #     title = "Nghề nghiệp"
+      #     desc = ".Net Developer"
+      #   [[languages.vi.params.about.status]]
+      #     title = "Vị trí"
+      #     faIcon = "fa-solid fa-map-marker-alt"
+      #     desc = "Hồ Chí Minh, Việt Nam"
+      #   # description of your parameter
+      #   # [[languages.vi.params.about.parameter]]
+      #   #   language = "UI/UX"
+      #   #   level = "80"
+      #   # [[languages.vi.params.about.parameter]]
+      #   #   language = "HTML"
+      #   #   level = "70"
+      #   # [[languages.vi.params.about.parameter]]
+      #   #   language = "Go"
+      #   #   level = "60"
 
       # Home page config
       [languages.en.params.home]
@@ -340,7 +335,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page (HTML format is supported)
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+          subtitle = "while true: learn"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
