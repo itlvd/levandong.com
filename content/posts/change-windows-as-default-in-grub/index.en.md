@@ -7,8 +7,8 @@ draft : false
 author: "Lê Văn Đông"
 authorLink: "https://www.levandong.com"
 
-tags: ["Javascript", "Tips"]
-categories: ["Programming", "Tips"]
+tags: ["Linux", "Tips"]
+categories: ["Linux", "Tips"]
 
 toc:
   auto: false

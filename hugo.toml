@@ -99,7 +99,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         tileColor = "#da532c"
       # Search config
       [languages.vi.params.search]
-        enable = true
+        enable = false
         # type of search engine ("lunr", "algolia")
         type = "algolia"
         # max index length of the chunked content
@@ -270,7 +270,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         tileColor = "#da532c"
       # Search config
       [languages.en.params.search]
-        enable = true
+        enable = false
         # type of search engine ("lunr", "algolia")
         type = "algolia"
         # max index length of the chunked content
