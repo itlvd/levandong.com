@@ -1,8 +1,6 @@
 ---
 title: Changing default Grub boot options
-
 date: 2024-03-23 03:21:58
-
 draft : false
 author: "Lê Văn Đông"
 authorLink: "https://www.levandong.com"
@@ -21,6 +19,7 @@ resources:
 
 lightgallery: true
 ---
+
 Many people install dual boot both Windows and Linux. Some of them prefer set up Linux as a primary Operating System while some want to set Windows as their primary OS.
 
 After you install dual boot and start your computer, the Grub boot options will appear for you to choose, OS which you want to enter. If you prefer to have Windows as primary OS, this is inconvenient. The good news is that you can customize the priority OS in Grub boot.
