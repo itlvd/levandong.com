@@ -13,9 +13,9 @@ toc:
 
 resources:
 - name: "featured-image"
-  src: "featured-image-preview.webp"
+  src: "bit-fields-trong-c-cpp.webp"
 - name: "featured-image-preview"
-  src: "featured-image-preview.webp"
+  src: "bit-fields-trong-c-cpp.webp"
 
 lightgallery: true
 ---

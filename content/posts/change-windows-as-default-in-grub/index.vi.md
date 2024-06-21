@@ -13,9 +13,9 @@ toc:
 
 resources:
 - name: "featured-image"
-  src: "featured-image-preview.webp"
+  src: "change-windows-as-default-in-grub.webp"
 - name: "featured-image-preview"
-  src: "featured-image-preview.webp"
+  src: "change-windows-as-default-in-grub.webp"
 
 lightgallery: true
 ---

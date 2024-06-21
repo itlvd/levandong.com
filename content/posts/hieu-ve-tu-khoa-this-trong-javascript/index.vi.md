@@ -13,9 +13,9 @@ toc:
 
 resources:
 - name: "featured-image"
-  src: "featured-image-preview.webp"
+  src: "hieu-ve-tu-khoa-this-trong-javascript.webp"
 - name: "featured-image-preview"
-  src: "featured-image-preview.webp"
+  src: "hieu-ve-tu-khoa-this-trong-javascript.webp"
 
 lightgallery: true
 ---

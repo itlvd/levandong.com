@@ -228,15 +228,15 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       #   url = "/categories/documentation/"
       #   title = ""
       #   weight = 4
-      [[languages.vi.menu.main]]
+      [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
         post = ""
-        name = "Về tôi"
+        name = "About"
         url = "/about/"
         title = ""
         weight = 5
-      [[languages.vi.menu.main]]
+      [[languages.en.menu.main]]
         identifier = "github"
         pre = "<i class='fa-brands fa-github fa-fw'></i>"
         post = ""
@@ -267,7 +267,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       [languages.en.params.search]
         enable = true
         # type of search engine ("lunr", "algolia")
-        type = "algolia"
+        type = "lunr"
         # max index length of the chunked content
         contentLength = 4000
         # placeholder of the search bar

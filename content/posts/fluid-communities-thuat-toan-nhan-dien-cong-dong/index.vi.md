@@ -14,9 +14,9 @@ toc:
 
 resources:
 - name: "featured-image"
-  src: "featured-image-preview.webp"
+  src: "fluid-communities-thuat-toan-nhan-dien-cong-dong.webp"
 - name: "featured-image-preview"
-  src: "featured-image-preview.webp"
+  src: "fluid-communities-thuat-toan-nhan-dien-cong-dong.webp"
 
 lightgallery: true
 

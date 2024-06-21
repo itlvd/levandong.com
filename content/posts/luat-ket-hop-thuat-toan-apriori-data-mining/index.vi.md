@@ -15,8 +15,10 @@ toc:
   auto: false
 
 resources:
+- name: "featured-image"
+  src: "luat-ket-hop-thuat-toan-apriori-data-mining.webp"
 - name: "featured-image-preview"
-  src: "featured-image-preview.webp"
+  src: "luat-ket-hop-thuat-toan-apriori-data-mining.webp"
 
 lightgallery: true
 ---
