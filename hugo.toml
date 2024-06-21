@@ -604,7 +604,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         enable = true
         # Disqus shortname to use Disqus in posts
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
-        shortname = ""
+        shortname = "levandong"
       # Vssue comment config (https://github.com/meteorlxy/vssue)
       # Vssue 评论系统设置 (https://github.com/meteorlxy/vssue)
       [params.page.comment.vssue]
