@@ -54,30 +54,30 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         url = "/categories/"
         title = ""
         weight = 3
-      [[languages.vi.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Tài liệu"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
       # [[languages.vi.menu.main]]
-      #   identifier = "about"
+      #   identifier = "documentation"
       #   pre = ""
       #   post = ""
-      #   name = "Về tôi"
-      #   url = "/about/"
+      #   name = "Tài liệu"
+      #   url = "/categories/documentation/"
       #   title = ""
-      #   weight = 5
-      # [[languages.vi.menu.main]]
-      #   identifier = "github"
-      #   pre = "<i class='fa-brands fa-github fa-fw'></i>"
-      #   post = ""
-      #   name = ""
-      #   url = "https://github.com/itlvd"
-      #   title = "GitHub"
-      #   weight = 6
+      #   weight = 4
+      [[languages.vi.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "Về tôi"
+        url = "/about/"
+        title = ""
+        weight = 5
+      [[languages.vi.menu.main]]
+        identifier = "github"
+        pre = "<i class='fa-brands fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/itlvd"
+        title = "GitHub"
+        weight = 6
     [languages.vi.params]
       # site description
       description = "Chia sẻ kiến thức"
@@ -99,7 +99,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         tileColor = "#da532c"
       # Search config
       [languages.vi.params.search]
-        enable = false
+        enable = true
         # type of search engine ("lunr", "algolia")
         type = "algolia"
         # max index length of the chunked content
@@ -116,8 +116,8 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         absoluteURL = false
         [languages.vi.params.search.algolia]
           index = "index.vi"
-          appID = "E3MO91RR8O"
-          searchKey = "5bc923af6c1960176039fcff6b0298b9"
+          appID = "RZU3233ROA"
+          searchKey = "4a9bd1ba623cf52d9034618a799c971a"
 
       # About page config
       [languages.vi.params.about]
@@ -228,22 +228,22 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       #   url = "/categories/documentation/"
       #   title = ""
       #   weight = 4
-      # [[languages.vi.menu.main]]
-      #   identifier = "about"
-      #   pre = ""
-      #   post = ""
-      #   name = "Về tôi"
-      #   url = "/about/"
-      #   title = ""
-      #   weight = 5
-      # [[languages.vi.menu.main]]
-      #   identifier = "github"
-      #   pre = "<i class='fa-brands fa-github fa-fw'></i>"
-      #   post = ""
-      #   name = ""
-      #   url = "https://github.com/itlvd"
-      #   title = "GitHub"
-      #   weight = 6
+      [[languages.vi.menu.main]]
+        identifier = "about"
+        pre = ""
+        post = ""
+        name = "Về tôi"
+        url = "/about/"
+        title = ""
+        weight = 5
+      [[languages.vi.menu.main]]
+        identifier = "github"
+        pre = "<i class='fa-brands fa-github fa-fw'></i>"
+        post = ""
+        name = ""
+        url = "https://github.com/itlvd"
+        title = "GitHub"
+        weight = 6
     [languages.en.params]
       # site description
       description = "Shareing knowledge"
@@ -265,7 +265,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         tileColor = "#da532c"
       # Search config
       [languages.en.params.search]
-        enable = false
+        enable = true
         # type of search engine ("lunr", "algolia")
         type = "algolia"
         # max index length of the chunked content
@@ -282,8 +282,8 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         absoluteURL = false
         [languages.en.params.search.algolia]
           index = "index.vi"
-          appID = "E3MO91RR8O"
-          searchKey = "5bc923af6c1960176039fcff6b0298b9"
+          appID = "RZU3233ROA"
+          searchKey = "4a9bd1ba623cf52d9034618a799c971a"
 
       # About page config
       # [languages.vi.params.about]
