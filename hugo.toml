@@ -675,7 +675,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         categoryId = "DIC_kwDOKgNYdc4CgKfU"
         # automatically adapt the current theme i18n configuration when empty
         lang = ""
-        mapping = "pathname"
+        mapping = "title"
         reactionsEnabled = "1"
         emitMetadata = "0"
         inputPosition = "top"
