@@ -1,0 +1,9 @@
+{
+    "schedule": "daily",
+    "ignoredFiles": [
+        "*.webp",
+        "dontcompress.png"
+    ],
+    "aggressiveCompression": "true"
+    "compressWiki": "true"
+}
