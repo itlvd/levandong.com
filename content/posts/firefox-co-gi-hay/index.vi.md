@@ -72,7 +72,8 @@ Firefox là một trình duyệt bạn có thể custom nhiều thứ, mặc đ�
 
 **Nhiều trang web hỗ trợ**: Nếu nói về số lượng trang web hỗ trợ thì Chrome là vô đối, Firefox rất khó để so sánh với Chrome. Tuy nhiên, phần lớn trang web hoạt động rất tốt trên Firefox, rất ít trang web mà bị lỗi với Firefox. Nhưng so sánh thì Chrome vô đối.
 
-> Có một tin buồn khi bạn sử dụng Firefox, bạn có thể bị bóp bẩn bởi chính Google, khi bạn truy cập các trang dịch vụ của Google như Google Drive hay Youtube. Google sẽ bóp cho chậm hơn khi sử dụng với Chrome. Một ông lớn mà làm vậy thì quá tiếc, tuy nhiên, trải nghiệm không phải là tệ, chỉ là chậm hơn so với Chrome thôi.
+
+{{< admonition info >}}Có một tin buồn khi bạn sử dụng Firefox, bạn có thể bị bóp bẩn bởi chính Google, khi bạn truy cập các trang dịch vụ của Google như Google Drive hay Youtube. Google sẽ bóp cho chậm hơn khi sử dụng với Chrome. Một ông lớn mà làm vậy thì quá tiếc, tuy nhiên, trải nghiệm không phải là tệ, chỉ là chậm hơn so với Chrome thôi.{{< /admonition >}}
 
 ## Điều hay của Firefox
 
