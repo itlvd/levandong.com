@@ -162,4 +162,4 @@ Bài viết này chỉ mang mục đích giới thiệu và khuyến khích các
 
 ## Tham khảo
 
-[https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-chromium.682181/#post-22174021](https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-chromium.682181/#post-22174021)
+[Tổng hợp những addon chất cho Firefox / Chromium](https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-chromium.682181/#post-22174021)
