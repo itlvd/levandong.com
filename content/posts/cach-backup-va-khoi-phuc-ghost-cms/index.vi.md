@@ -13,9 +13,9 @@ toc:
 
 resources:
 - name: "featured-image"
-  src: "cach-backup-va-khoi-phuc-ghost-cms.webp"
+  src: "cach-backup-ghost-cms.png"
 - name: "featured-image-preview"
-  src: "cach-backup-va-khoi-phuc-ghost-cms.webp"
+  src: "cach-backup-ghost-cms.png"
 
 lightgallery: true
 ---
