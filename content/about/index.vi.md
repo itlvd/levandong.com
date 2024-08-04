@@ -21,4 +21,4 @@ Blog được thiết kế theo phong cách tối giản, tinh gọn và ưu ti�
 
 
 
-Trong tương lai, để rèn luyện tiếng anh, mình có thể sẽ viết song ngữ Anh - Việt. Mặc dù, mình sẽ tốn công một xíu nhưng mình trông đợi một tương lai pro tiếng anh hơn. Do you want to play with me?
+Trong tương lai, để rèn luyện tiếng anh, mình có thể sẽ viết song ngữ Anh - Việt. Mặc dù, mình sẽ tốn nhiều thời gian hơn một xíu nhưng mình trông đợi một tương lai pro tiếng anh hơn. Do you want to play with me?
