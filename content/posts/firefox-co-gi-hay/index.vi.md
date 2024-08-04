@@ -1,5 +1,5 @@
 ---
-title: Firefox có gì hay
+title: Firefox có gì hay?
 
 date: 2024-08-04 02:19:32
 draft : false
@@ -36,7 +36,7 @@ Hay tiếng Việt là
 > Nếu bạn không phải trả tiền thì bạn chính là sản phẩm.
 
 
-Mình thiết nghĩ câu này đúng, Google là một ví dụ điển hỉnh nhất cho câu nói này. Bạn có thể sử dụng phần lớn sản phẩm của Google một cách hoàn toàn miễn phí, từ Gmail, Google Drive, Google Doc, Youtube,... và nổi tiếng nhất có lẽ là Google Search. Vậy doanh thu đến từ đâu? Câu trả lời hợp lý nhất cho câu hỏi này là **Quảng cáo.** Họ sẽ thu thập tất cả những thông tin từ bạn như sở thích, thói quen, giới tính, lịch sử duyệt web,... nhằm mục đích chính là phân phối quảng cáo sao cho phù hợp nhất với bạn. Hmmm, nghe có vẻ cũng hợp lý đấy, thứ bạn muốn mua thì có quảng cáo một tý cũng phải là một vấn đề lớn. Nhưng đó là trường hợp tốt nhất, giả sử bạn chưa có nhu cầu mua thì sao? Hay bạn cũng sẽ có khả năng là mục tiêu cho các đối tượng chạy quảng cáo để lừa đảo? Có lẽ vấn đề đã lớn hơn nhiều chút rồi đấy.
+Mình thiết nghĩ câu này đúng, Google là một ví dụ điển hình nhất cho câu nói này. Bạn có thể sử dụng phần lớn sản phẩm của Google một cách hoàn toàn miễn phí, từ Gmail, Google Drive, Google Doc, Youtube,... và nổi tiếng nhất có lẽ là Google Search. Vậy doanh thu đến từ đâu? Câu trả lời hợp lý nhất cho câu hỏi này là **Quảng cáo.** Họ sẽ thu thập tất cả những thông tin từ bạn như sở thích, thói quen, giới tính, lịch sử duyệt web,... nhằm mục đích chính là phân phối quảng cáo sao cho phù hợp nhất với bạn. Nhưng lúc bạn chưa có nhu cầu mua thì quảng cáo vẫn xuất hiện với tần suất dày đặc. Hay có khả năng bạn sẽ là mục tiêu cho các đối tượng chạy quảng cáo lừa đảo? Thậm chí, tệ hơn nữa là thông tin của bạn sẽ bị bán cho bên thứ ba, còn họ làm gì với thông tin đó thì...
 
 ## Google Chrome
 
