@@ -18,7 +18,3 @@ Bạn có thể đóng góp vào bài viết bằng cách click vào góc trái 
 
 
 Blog được thiết kế theo phong cách tối giản, tinh gọn và ưu tiên tốc độ tải trang nên có thể nhìn không được bắt mắt cho lắm. Tuy nhiên, mình tin rằng các bài viết của mình đem đến trải nghiệm đọc rất tốt - đặc biệt chế độ tối. Nếu có một vấn đề gì, bạn có thể sử dụng chức năng tìm kiếm của trang web hoặc sử dụng google với từ khoá: levandong + vấn đề của bạn (có thể nằm đâu đó 1-2 trang đầu).
-
-
-
-Trong tương lai, để rèn luyện tiếng anh, mình có thể sẽ viết song ngữ Anh - Việt. Mặc dù, mình sẽ tốn nhiều thời gian hơn một xíu nhưng mình trông đợi một tương lai pro tiếng anh hơn. Do you want to play with me?
