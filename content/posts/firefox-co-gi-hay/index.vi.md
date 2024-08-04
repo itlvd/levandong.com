@@ -152,7 +152,9 @@ Công cụ lấy mã màu trực tiếp trên website, Firefox có sẵn tính n
 
 ## Kết
 
-Firefox là một trình duyệt đáng để thử nếu hợp bạn có thể sử dụng. Mình cũng chuyển từ Chrome sang Firefox, vì 2 tính năng quá dính là Container và Backup Profiles mà mình không thể đổi sang một trình duyệt nào khác nữa. Nếu bạn là một người mới từ Chrome sang, bạn hãy sử dụng tính năng Import của Firefox để chuyển, và chịu khó thời gian ban đầu vì chưa quen, nhưng một thời gian bạn quen sẽ cảm thấy yêu nó. Mình đã từng giới thiệu nhiều người, và họ cảm thấy sao không biết được sớm hơn. Vì thật sự cũng rất khó nói, Firefox khi cài đặt mà không chỉnh thì sẽ không khác gì Chrome thậm chí thua Chrome, nhưng một khi sử dụng, tinh chỉnh cho phù hợp nhu cầu, thì thấy Chrome không có giải pháp tương tự.
+Firefox là một trình duyệt đáng để thử. Nếu hợp, bạn có thể sử dụng thường xuyên. Mình cũng chuyển từ Chrome sang Firefox, vì 2 tính năng quá dính là Container và Backup Profiles mà mình không thể đổi sang một trình duyệt nào khác nữa. Nếu bạn là một người mới từ Chrome sang, bạn hãy sử dụng tính năng Import của Firefox để chuyển, và chịu khó thời gian ban đầu vì chưa quen cách sử dụng, nhưng một thời gian mình tin là bạn quen sẽ cảm thấy thích nó. 
 
-Bài viết chỉ mang mục đích giới thiệu và khuyến khích các bạn sử dụng Firefox vì đề cao quyền riêng tư bảo mật, tính năng hay ho của nó. Mình không đề cao Firefox hay đề cao Chrome. Đứng ở góc độ người dùng, mình thấy Firefox rất tốt để sử dụng vì thế muốn giới thiệu với mọi người. Vui lòng không tranh cãi toxic ở topic này. Các bài viết tiếp theo sẽ là bài viết hướng dẫn cài đặt Firefox cho phù hợp.
+Mình đã từng giới thiệu nhiều người, và họ cảm thấy tại sao họ không thể biết được sớm hơn. Người dùng Firefox khá ít và mặc định cài máy các kỹ thuật viên sẽ cài Chrome thay vì Firefox. Nhưng thật sự cũng rất khó nói, Firefox khi cài đặt mà không chỉnh thì sẽ không khác gì Chrome thậm chí thua Chrome, nhưng một khi sử dụng, tinh chỉnh cho phù hợp với nhu cầu, thì bạn sẽ thấy Chrome không có giải pháp tương tự.
+
+Bài viết này chỉ mang mục đích giới thiệu và khuyến khích các bạn sử dụng Firefox vì đề cao quyền riêng tư bảo mật, tính năng hay ho của nó. Các bài viết tiếp theo sẽ là bài viết hướng dẫn cài đặt Firefox cho phù hợp với từng cá nhân.
 
