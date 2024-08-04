@@ -40,6 +40,8 @@ Mình thiết nghĩ câu này đúng, Google là một ví dụ điển hỉnh n
 
 ## Google Chrome
 
+![](./chrome.webp)
+
 Có thể các bạn không biết thì Google Chrome có thể được nhìn như là trình duyệt của quảng cáo, nó sẽ thu thập tất cả những thông tin có thể thu thập về bạn, thậm chí nó còn thu thập và dự đoán hành vi của bạn nữa :D. Kể cả các trình duyệt web khác sử dụng chromium thì gần như rất khó để xóa hết mọi tracking từ trong core của Chrome. Nói chung, bạn sử dụng Chrome nói riêng và base on Chromium nói chung thì không còn lựa chọn khác.
 
 Tuy nhiên, đó chỉ là nhược điểm của Chrome, còn ưu điểm của Chrome thì đa số các bạn sử dụng Chrome đã biết: kho extension đồ sộ, lướt web nhanh, tốn ít RAM, nhiều trang web hỗ trợ hơn.... và đặc biệt là dễ sử dụng và tiếp cận hơn.
@@ -53,6 +55,8 @@ Kho extension đồ sộ: Điều này không cần bàn cãi, kho của Chrome 
 **Nhiều trang web hỗ trợ hơn**: Chrome mặc định quá phổ biến rồi, phổ biến đến nỗi lượt truy cập vào Edge là chỉ để tải Chrome về. Vì mức độ phổ biến của nó, rất nhiều trang web hỗ trợ cho Chrome, vận hành mượt mà hơn, tốn ít tài nguyên hơn, render ít lỗi hơn.
 
 ## Firefox
+
+![](./firefox.webp)
 
 Wait! Nhưng mà đây là bài viết về Firefox cơ mà sao lại nói Chrome ở đây. Vì mình muốn so sánh cả 2 trình duyệt, mỗi cái có ưu và nhược điểm riêng, ai quen dùng cái nào thì sử dụng. Ngoài ra, muốn biết Firefox có gì hay thì ta phải đặt bàn cân với trình duyệt khác thì mới có thể nói nó hay ở chỗ nào. Gét gô dô bài!
 
@@ -86,6 +90,8 @@ Bạn có thể bật punycode để tránh vào trang web lừa đảo. Như `l
 
 ### Container
 
+![](./Containers-tabs-stacked.webp)
+
 Với một người mới thì bạn sẽ khá khó khăn khi hiểu được định nghĩa Container trong Firefox. Nhưng tin mình đi, khi bạn biết cách sử dụng thì bạn rất khó để quay về Chrome.
 
 > Gặp nhau rồi thật khó lìa xa
@@ -117,6 +123,8 @@ Trên Linux thì Firefox là trình duyệt mặc định rồi. Firefox trên L
 ### Tùy chỉnh giao diện Firefox
 
 Ở trên mình có nói giao diện Firefox xấu so với Chrome. Đến với Firefox bạn có thể thay đổi giao diện Firefox 180 độ, thậm chí có thể biến giao diện của nó thành Chrome nếu muốn. Bạn có thể truy cập [FirefoxCssStore](https://firefoxcss-store.github.io/) để ngắm giao diện của nó.
+
+![](./firefoxcssstore.webp)
 
 ### Ublock
 
