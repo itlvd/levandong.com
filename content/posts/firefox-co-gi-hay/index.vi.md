@@ -36,7 +36,7 @@ Hay tiếng Việt là
 > Nếu bạn không phải trả tiền thì bạn chính là sản phẩm.
 
 
-Mình thiết nghĩ câu này đúng, Google là một ví dụ điển hỉnh nhất cho câu nói này. Bạn có thể sử dụng phần lớn sản phẩm của Google một cách hoàn toàn miễn phí, từ Gmail, Google Drive, Google Doc, Youtube,... và nổi tiếng nhất có lẽ là Google Search. Vậy doanh thu đến từ đâu? Câu trả lời hợp lý nhất cho câu hỏi này là **Quảng cáo.** Họ sẽ thu thập tất cả những thông tin từ bạn như sở thích, thói quen, giới tính, lịch sử duyệt web,... nhằm mục đích chính là phân phối quảng cáo sao cho phù hợp nhất với bạn. Hmmm, nghe có vẻ cũng hợp lý đấy, thứ bạn muốn mua thì có quảng cáo một tý cũng phải là một vấn đề lớn. Nhưng đó là trường hợp tốt nhất, gỉả sử bạn chưa có nhu cầu mua thì sao? Hay bạn cũng sẽ có khả năng là mục tiêu cho các đối tượng chạy quảng cáo để lừa đảo? Có lẽ vấn đề đã lớn hơn nhiều chút rồi đấy.
+Mình thiết nghĩ câu này đúng, Google là một ví dụ điển hỉnh nhất cho câu nói này. Bạn có thể sử dụng phần lớn sản phẩm của Google một cách hoàn toàn miễn phí, từ Gmail, Google Drive, Google Doc, Youtube,... và nổi tiếng nhất có lẽ là Google Search. Vậy doanh thu đến từ đâu? Câu trả lời hợp lý nhất cho câu hỏi này là **Quảng cáo.** Họ sẽ thu thập tất cả những thông tin từ bạn như sở thích, thói quen, giới tính, lịch sử duyệt web,... nhằm mục đích chính là phân phối quảng cáo sao cho phù hợp nhất với bạn. Hmmm, nghe có vẻ cũng hợp lý đấy, thứ bạn muốn mua thì có quảng cáo một tý cũng phải là một vấn đề lớn. Nhưng đó là trường hợp tốt nhất, giả sử bạn chưa có nhu cầu mua thì sao? Hay bạn cũng sẽ có khả năng là mục tiêu cho các đối tượng chạy quảng cáo để lừa đảo? Có lẽ vấn đề đã lớn hơn nhiều chút rồi đấy.
 
 ## Google Chrome
 
@@ -46,7 +46,7 @@ Có thể các bạn không biết thì Google Chrome có thể được nhìn n
 
 Tuy nhiên, đó chỉ là nhược điểm của Chrome, còn ưu điểm của Chrome thì đa số các bạn sử dụng Chrome đã biết: kho extension đồ sộ, lướt web nhanh, tốn ít RAM, nhiều trang web hỗ trợ hơn.... và đặc biệt là dễ sử dụng và tiếp cận hơn.
 
-**Kho extension đồ sộ**: Điều này không cần bàn cãi, kho của Chrome thì rất phong phú, phục vụ hầu hết mọi nhu cầu của người dùng. Gần như có thể nói, khi bạn nghĩ ra tính năng gì thì bạn khả năng cao sẽ tìm thấy tính năng đó trên kho extension của Chrome. Tuy nhiên, kho extension cùa Chrome cũng có một nhược điểm nguy hiểm là có nhiều extension rác và lừa đảo. Nếu các bạn đã từng sử dụng Ublock thì các bạn có thể tìm được rất nhiều bản Ublock khác nhau trên kho của Chrome và nếu người dùng không tinh ý thì có thể sẽ cài đặt extension lừa đảo nguy hiểm cho trình duyệt.
+**Kho extension đồ sộ**: Điều này không cần bàn cãi, kho của Chrome thì rất phong phú, phục vụ hầu hết mọi nhu cầu của người dùng. Gần như có thể nói, khi bạn nghĩ ra tính năng gì thì bạn khả năng cao sẽ tìm thấy tính năng đó trên kho extension của Chrome. Tuy nhiên, kho extension của Chrome cũng có một nhược điểm nguy hiểm là có nhiều extension rác và lừa đảo. Nếu các bạn đã từng sử dụng Ublock thì các bạn có thể tìm được rất nhiều bản Ublock khác nhau trên kho của Chrome và nếu người dùng không tinh ý thì có thể sẽ cài đặt extension lừa đảo nguy hiểm cho trình duyệt.
 
 **Lướt web nhanh**: Đây là một cách nâng cao trải nghiệm người dùng của Chrome. Với góc độ người dùng, tôi không cần biết các anh sử dụng thuật toán gì, code thế nào, nhưng tôi muốn khi tôi search hay click vào một link thì trang web sẽ tải nhanh nhất có thể, ngay lập tức thì càng tốt. Đây là một điểm đáng khen của Chrome và khiến bạn rất khó để có thể chuyển sang trình duyệt khác khi mà tốc độ lướt web có thể sẽ bị chậm đi. Nếu bàn luận về cơ chế này, khi bạn search hoặc di chuyển chuột đến một link nào đó, Chrome đã tải trang của bạn nên khi bạn click vào link thì Chrome chỉ cần đem từ cache ra cho bạn xem thôi, do đó lướt web bằng Chrome bạn sẽ thấy nó chạy rất nhanh. Tuy nhiên, nếu preload như thế, thì bạn sẽ tốn nhiều băng thông hơn đó là giá phải đánh đổi để tăng trải nghiệm người dùng khi lướt web.
 
@@ -137,7 +137,7 @@ Ublock là tiện ích chặn quảng cáo phổ biến trên toàn thế giới
 
 Firefox có thể lưu mọi thứ trên RAM mà không cần dùng tới RAM Disk, nhưng bạn cần phải chỉnh chọt 1 chút. Khi đó, Firefox sẽ chạy trên RAM thay vì Disk, tăng tốc độ lên rất nhiều, vì tốc độ trên RAM nhanh hơn Disk mà.
 
-### Tăng tốc độ tài trang với Preload
+### Tăng tốc độ tải trang với Preload
 
 Firefox có thể hack giống Chrome bằng cách preload. Bạn sẽ phải bật bằng tay và setup một tý. Nhưng không hoàn toàn bằng Chrome được, đây là nhận xét của mình, Chrome vô đối khoản này.
 
