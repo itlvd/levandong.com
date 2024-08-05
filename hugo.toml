@@ -601,7 +601,7 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
-        enable = true
+        enable = false
         # Disqus shortname to use Disqus in posts
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
         shortname = "levandong"
@@ -668,8 +668,8 @@ ignoreErrors = ["err-missing-comment-accesstoken", "err-missing-oembed-accesstok
         darkTheme = "github-dark"
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
-        enable = false
-        repo = "itlvd/blogspot"
+        enable = true
+        repo = "itlvd/levandong.com"
         repoId = "R_kgDOKgNYdQ"
         category = "Comment"
         categoryId = "DIC_kwDOKgNYdc4CgKfU"
