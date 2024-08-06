@@ -21,7 +21,7 @@ lightgallery: true
 ---
 Việc [sử dụng bit trong C/C++](./bit-fields-trong-c-cpp) có lẽ các bạn đã quá quen thuộc rồi. Trong C/C++ có 1 phần khá hay là bit fields, bạn có thể tạo được nhiều biến chỉ với 1 byte, đương nhiên là trong khuôn khổ số bit đó thể hiện. Nay mình lên thêm một bài dành cho C#. Nói 1 cách chính xác thì nó không giống như bit fields trong C/C++. Nó không tối ưu size của biến trong quá trình runtime, nó dùng để tối ưu khi sử dụng để lưu trữ dữ liệu. Do đó, bài viết này không mô tả khái niệm bit fields mà là thủ thuật sử dụng bit để tối ưu dữ liệu để lưu trữ. Chúng ta sẽ đi xuyên suốt bài viết này và cùng so sánh điểm khác biệt giữa C/C++ và C#.
 
-# Lý thuyết
+## Lý thuyết
 
 Thủ thuật rất đơn giản. Chúng ta sẽ tạo 1 struct để lưu trữ dữ liệu, biến trong struct bạn tự định nghĩa, ở bài viết này mình sẽ dùng kiểu `uint`. Ta sẽ chuyển đổi kiểu dữ liệu `struct` thành `long` để lưu dữ liệu. Cũng như phải có cách để chuyển từ `long` sang `struct` nếu cần.
 
