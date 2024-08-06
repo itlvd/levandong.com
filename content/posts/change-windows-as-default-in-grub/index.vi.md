@@ -22,7 +22,7 @@ lightgallery: true
 
 Nhiều bạn cài song song hai hệ điều hành cho công việc và học tập như Windows và Linux. Một số bạn thích cài đặt Linux làm hệ điều hành mặc định. Tuy nhiên, cũng có những bạn muốn hệ điều hành chính là Windows.
 
-Sau khi bạn cài song song hai OS trên máy tính, thì khi bạn bắt đầu khởi động máy, Grub sẽ xuất hiện để bạn chọn OS mà bạn muốn truy cập vào. Nếu như bạn là người sử dụng Windows làm hệ điều hành mặc định thì việc này sẽ khiến bạn khó chịu. Nhưng đừng lo, bạn vẫn co1 thể tùy chỉnh menu boot này theo ý thích của mình.
+Sau khi bạn cài song song hai OS trên máy tính, thì khi bạn bắt đầu khởi động máy, Grub sẽ xuất hiện để bạn chọn OS mà bạn muốn truy cập vào. Nếu như bạn là người sử dụng Windows làm hệ điều hành mặc định thì việc này sẽ khiến bạn khó chịu. Nhưng đừng lo, bạn vẫn có thể tùy chỉnh menu boot này theo ý thích của mình.
 
 ## Lựa chọn 1: Sử dụng Grub-customizer
 

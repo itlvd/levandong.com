@@ -207,7 +207,7 @@ Vậy giờ ta muốn tính xác suất của từng cái để xem ta có thể
 
 Muốn tính độ tin cậy của c {táo → chuối, bánh} thì ta lấy số lần xuất hiện của {bánh, chuối, táo} chia cho số lần xuất hiện của {táo}. Đây là xác suất có điều kiện. Xác suất có {chuối, bánh} trong hoá đơn khi xuất hiện {táo} trong hoá đơn. Ta được: $c =\frac{2}{3}=0.66=66\\%$.
 
-Tương tự, muốn tính độ tin cậy của c {bánh, chuối → táo}. Ta lấy số lầ xuất hiện của {bánh, chuối, táo} chia cho số lần xuất hiện của {bánh, chuối}. Ta được $c =\frac{2}{2}=1=100\\%$. Tương tự tính cho những cái khác.
+Tương tự, muốn tính độ tin cậy của c {bánh, chuối → táo}. Ta lấy số lần xuất hiện của {bánh, chuối, táo} chia cho số lần xuất hiện của {bánh, chuối}. Ta được $c =\frac{2}{2}=1=100\\%$. Tương tự tính cho những cái khác.
 
 > Dựa vào số hoá đơn đang có, 100% khách hàng mua bánh và chuối thì sẽ mua táo. Nhưng chỉ 66% khách hàng mua táo thì mới mua bánh và chuối.
 
