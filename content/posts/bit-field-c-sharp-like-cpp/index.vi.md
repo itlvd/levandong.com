@@ -177,7 +177,7 @@ Convert from long:IsOn:1, IsRunning:5, IsFinish:7
 
 Tổng hợp code sẽ như thế này
 
-<script src="//onlinegdb.com/embed/js/yL-1H1woP?theme=dark"></script>
+{{< link href="https://www.onlinegdb.com/yL-1H1woP" content=OnlineGDB title="Truy cập code mẫu!" >}}
 
 ## Thảo luận
 
