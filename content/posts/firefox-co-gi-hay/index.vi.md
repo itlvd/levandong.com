@@ -119,6 +119,8 @@ Mình cố tình ghi đánh giá vào tiêu đề (sẽ không công bằng vớ
 
 Đến với Firefox, bạn chỉ cần copy thư mục profiles đem đi bất cứ đâu thì bạn có thể khôi phục lại toàn bộ mà không hề có lỗi. Mình là một người hay cài lại hệ điều hành. Mình bỏ thư mục profiles của Firefox trong ổ Data, và khi cài lại Firefox thì chỉ cần trỏ profiles tới thư mục Data là được. Mọi thứ được giữ nguyên. Thậm chí, bạn ở nhà, đem profiles lên máy công ty cũng được - tuy nhiên mình không khuyến khích lắm.
 
+Xem thêm: [Cách sao lưu và khôi phục Firefox toàn vẹn](/backup-khoi-phuc-firefox/).
+
 ### Tốc độ trên Linux
 
 Trên Linux thì Firefox là trình duyệt mặc định rồi. Firefox trên Linux chạy rất bốc. Không thua kém gì Chrome thậm chí còn nhanh và mượt hơn Chrome nữa.
