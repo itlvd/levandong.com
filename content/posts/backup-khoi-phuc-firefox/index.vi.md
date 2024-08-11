@@ -53,7 +53,7 @@ Các bạn vào Files Explorer, sau đó gõ đường dẫn `C:\Program Files\M
 
 ### Chạy chương trình profiles trên Firefox
 
-Tiêp đến, các bạn gõ chữ `cmd` trên thanh địa chỉ.
+Tiếp đến, các bạn gõ chữ `cmd` trên thanh địa chỉ.
 
 ![](./cmd.png)
 
