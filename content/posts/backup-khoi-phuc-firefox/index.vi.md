@@ -20,11 +20,11 @@ resources:
 lightgallery: true
 ---
 
-Firefox là một trình duyệt tốt và có nhiều tính năng có thể kể đến như container, ưu tiên quyền riêng tư, có thể sử dụng Ublock, chụp web, chọn màu tự động,... Nhưng đặc biệt nhất có thể kể đến là tính năng sao lưu và khôi phục Firefox. Nếu bạn chưa đọc bài giới thiệu về Firefox, bạn có thể truy cập ngay tại [Firefox có gì hay?](/firefox-co-gi-hay/) để tham khảo thêm các tính năng khác của Firefox.
+Firefox là một trình duyệt tốt và có nhiều tính năng hay như container, ưu tiên quyền riêng tư, có thể sử dụng Ublock, chụp web, chọn màu tự động,... Nhưng đặc biệt nhất có thể kể đến là tính năng sao lưu và khôi phục Firefox. Nếu bạn chưa đọc bài giới thiệu về Firefox, đọc bài [Firefox có gì hay?](/firefox-co-gi-hay/) để tham khảo thêm các tính năng khác của Firefox.
 
 Đã bao giờ các bạn cài lại hệ điều hành mà mất hết tất cả dữ liệu chưa? Sau khi cài xong hệ điều hành mới, bạn phải đăng nhập lại vào từng trang web trên trình duyệt? Mọi cài đặt của extension đều mất hết và bạn phải cài đặt lại từ đầu?... Đó là một quá trình mệt mỏi và tốn thời gian. Nếu số lượng web càng nhiều thì thời gian để bạn cài mọi thứ cho trình duyệt càng lâu! Nhưng đừng lo, Firefox có giải pháp cho bạn.
 
-Đến với Firefox, bạn sẽ có thể backup lại dữ liệu của mình và khôi phục lại toàn bộ Firefox của bạn mà không bị mất mát gì. Thậm chí, bạn có thể mang Firefox từ nhà bạn lên công ty hay đổi trình duyệt từ Firefox sang Floorp hay Zen Browser mà không bị mât dữ liệu. Mọi dữ liệu trong Firefox đều nằm trong thư mục Profiles. Chúng ta chỉ cần sao lưu thư mục này và đem đến bât kỳ đâu cũng được và Firefox sẽ khôi phục lại như cũ.
+Đến với Firefox, bạn sẽ có thể backup lại dữ liệu của mình và khôi phục lại toàn bộ Firefox của bạn mà không bị mất mát gì. Thậm chí, bạn có thể mang Firefox từ nhà bạn lên công ty hay đổi trình duyệt từ Firefox sang Floorp hay Zen Browser mà không bị mất dữ liệu. Mọi dữ liệu trong Firefox đều nằm trong thư mục Profiles. Chúng ta chỉ cần sao lưu thư mục này và đem đến bất kỳ đâu cũng được và Firefox sẽ khôi phục lại như cũ.
 
 ## Sao lưu
 
@@ -32,12 +32,14 @@ Firefox là một trình duyệt tốt và có nhiều tính năng có thể k�
 
 ![](./aboutSupportFirefox.png)
 
+{{< admonition info >}}
 Đây chính là thư mục bạn cần backup. Cách backup có rất nhiều cách như:
 - Chuyển thư mục này sang ổ Data để không bị mất khi cài lại Win.
 - Sử dụng Google Drive, OneDrive hoặc cac dịch vụ lưu trữ nào để backup.
 - Sử dụng Git để backup.
+{{< /admonition >}}
 
-Trước khi backup, vui lòng tắt trình duyệt Firefox để tránh `copy` hoặc `move` bị lỗi.
+{{< admonition danger >}} Trước khi backup, vui lòng tắt trình duyệt Firefox để tránh `copy` hoặc `move` bị lỗi. {{< /admonition >}}
 
 ## Khôi phục
 
@@ -51,7 +53,7 @@ Các bạn vào Files Explorer, sau đó gõ đường dẫn `C:\Program Files\M
 
 ### Chạy chương trình profiles trên Firefox
 
-Tiêp đến, các bạn gõ chữ cmd trên thanh địa chỉ.
+Tiêp đến, các bạn gõ chữ `cmd` trên thanh địa chỉ.
 
 ![](./cmd.png)
 
@@ -67,13 +69,10 @@ Click `Next` và chọn `Choose Folder`. Cửa sổ chọn thư mục hiện lê
 
 ![](./choose-folder.png)
 
-Đặt lại tên Profile nếu muốn, hoặc bạn để mặc định cũng được. Cuối cùng nhấn nút `Finish`. Cuối cùng, bạn chọn profile mà bạn mới chọn khi nãy. Nhớ tick vào `Use the selected profile without asking at startup` và chọn `Start Firefox`.
+Đặt lại tên Profile nếu muốn, hoặc bạn để mặc định cũng được. Sau đó, nhấn nút `Finish`. Tiếp theo, bạn chọn profile mà bạn mới tạo khi nãy. Nhớ tick vào `Use the selected profile without asking at startup` và chọn `Start Firefox`.
 
 ![](./finish.png)
 
-Cuối cùng, bạn đã hoàn thành cách khôi phục lại Firefox. Bây giờ, mọi thứ của ạn được khôi phục như ban đầu.
+Cuối cùng, bạn đã hoàn thành cách khôi phục lại Firefox. Bây giờ, mọi thứ của bạn được khôi phục như ban đầu.
 
 Chúc các bạn thành công.
-
-
-
