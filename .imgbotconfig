@@ -3,9 +3,9 @@
     "ignoredFiles": [
         "*.webp",
         "dontcompress.png",
-        "static/*",
+        "/static/*",
         "logo.png",
-        "assets/*"
+        "/assets/*"
     ],
     "aggressiveCompression": "true"
     "compressWiki": "true"
