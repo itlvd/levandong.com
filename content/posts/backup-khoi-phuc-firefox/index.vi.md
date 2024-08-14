@@ -4,7 +4,7 @@ date: 2024-08-11
 draft : false
 author: "Lê Văn Đông"
 authorLink: "https://www.levandong.com"
-
+series: "Tinh chỉnh Firefox"
 tags: ["Firefox", "Privacy"]
 categories: ["Firefox"]
 
