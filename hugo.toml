@@ -13,7 +13,7 @@
 # website title
 title = "Dong's Notes"
 # Hostname (and path) to the root
-baseURL = "http://levandong.dev"
+baseURL = "http://www.levandong.com"
 # theme list
 theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
@@ -106,31 +106,6 @@ enableEmoji = true
       # site keywords
       keywords = ["Theme", "Hugo"]
       # App icon config
-      [languages.vi.params.app]
-        # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "Dong's Notes"
-        # whether to omit favicon resource links
-        noFavicon = false
-        # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = ""
-        # Android browser theme color
-        themeColor = "#ffffff"
-        # Safari mask icon color
-        iconColor = "#5bbad5"
-        # Windows v8-10 tile color
-        tileColor = "#da532c"
-      # About page config
-      [languages.vi.params.about]
-        # whether to enable profile on about page
-        # depends on .Site.Params.home.profile.enable
-        enable = false
-        # whether to enable param layout
-        param = true
-        # title for param layout
-        paramTitle = "Thông tin cá nhân"
-        # general description of your site
-        # can be write with markdown style
-        description = "Xin chào, tôi là Lê Văn Đông, tôi là developer đến từ Việt Nam. Blog này được tạo ra nhằm lưu giữ những gì tôi học được, cũng như chia sẻ với các bạn có cùng vấn đề giống như tôi. Blog này sẽ được viết bằng nhiều ngôn ngữ, cụ thể Tiếng Việt và Tiếng Anh. Tôi sẽ rất vui khi được kết nối với các developer khác, bạn có thể liên lạc tôi qua Telegram."
       [languages.vi.params.home]
         # amount of RSS pages
         rss = 10
@@ -225,21 +200,6 @@ enableEmoji = true
       # site keywords
       keywords = ["Dong's Notes", "C#"]
       # App icon config
-      [languages.en.params.app]
-        # optional site title override for the app when added to an iOS home screen or Android launcher
-        title = "Dong's Notes"
-        # whether to omit favicon resource links
-        noFavicon = false
-        # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = ""
-        # Android browser theme color
-        themeColor = "#ffffff"
-        # Safari mask icon color
-        iconColor = "#5bbad5"
-        # Windows v8-10 tile color
-        tileColor = "#da532c"
-
-      # Home page config
       [languages.en.params.home]
         # amount of RSS pages
         rss = 10
