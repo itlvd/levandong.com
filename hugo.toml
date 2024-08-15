@@ -42,11 +42,9 @@ enableEmoji = true
 [languages]
   [languages.vi]
     weight = 1
+    title = "Dong's Notes"
     languageCode = "vi"
     languageName = "Tiếng Việt"
-    hasCJKLanguage = false
-    paginate = 12
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
     [languages.vi.menu]
       [[languages.vi.menu.main]]
@@ -103,11 +101,9 @@ enableEmoji = true
 
   [languages.en]
     weight = 1
+    title = "Dong's Notes"
     languageCode = "en"
     languageName = "English"
-    hasCJKLanguage = false
-    paginate = 12
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
     [languages.en.menu]
       [[languages.en.menu.main]]
