@@ -1190,7 +1190,7 @@ enableEmoji = true
         katex = false
       # FixIt 0.2.14 | NEW Giscus comments config
       [params.page.comment.giscus]
-        enable = false
+        enable = true
         repo = "itlvd/levandong.com"
         repoId = "R_kgDOKgNYdQ"
         category = "Comment"
