@@ -75,4 +75,30 @@ Click `Next` và chọn `Choose Folder`. Cửa sổ chọn thư mục hiện lê
 
 Cuối cùng, bạn đã hoàn thành cách khôi phục lại Firefox. Bây giờ, mọi thứ của bạn được khôi phục như ban đầu.
 
+## Profile hỏng quá nặng
+
+Nếu bạn đã thử thành công bước trên thì sẽ có lúc bạn nghịch profile của bạn và dẫn đến bị lỗi. Khi đó profile của bạn bị hỏng hoàn toàn và chỉ còn cách tạo profile mới.
+
+Tuy nhiên, các bạn có thể giữ lại một số file quan trọng để cứu dữ liệu của bạn.
+- `places.sqlite`: lưu bookmark và history.
+- `cookies.sqlite`: lưu thông tin đăng nhập.
+- `cert9.db`, `key4.db` + `logins.json`: lưu mật khẩu cá nhân.
+- `extension-preferences.json` + `extensions.json` + `extension-settings.json` + thư mục `extensions`: lưu thông tin về extensions.
+- `search.json.mozlz4`: bộ công cụ tìm kiếm.
+- `user.js`: nếu bạn có tạo file user.js thì backup file này lại. Còn không có file user.js thì backup file `prefs.js`.
+- Thư mục `chrome` nếu muốn giữ nguyên giao diện.
+
+**Bước 1**: Tắt Firefox.
+
+**Bước 2**: Tạo profiles mới như hướng dẫn ở trên, nhưng không chọn `Select Folder`.
+
+**Bước 3**: Copy các file trong checklist trên vào thư mục profile mới.
+
+**Bước 4**: Nhớ tick vào `Use the selected profile without asking at startup`.
+
+**Bước 5**: Nếu extension không hiện, thì vào tab extension tắt và bật lại các extension lần nữa cho Firefox tự nhận diện lại.
+
 Chúc các bạn thành công.
+
+## Tham khảo
+[Tổng hợp những addon chất cho Firefox / Chromium](https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-chromium.682181/)
