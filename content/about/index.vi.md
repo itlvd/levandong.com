@@ -8,7 +8,6 @@ lightgallery: true
 math:
   enable: true
 
-isComment: false
 ---
 
 Xin chào, mình là Lê Văn Đông. Chào mừng bạn ghé thăm blog và blog này được lập ra chủ yếu là nơi ghi chép những gì mình học được để sau này tìm lại cho thật dễ dàng, tuy nhiên nếu nó có thể giúp ích được cho bạn mình cũng sẽ rất vui. Nhưng có một vấn đề mọi người đều biết nhưng thường hay bỏ qua, mình là người học và viết những gì mình học và viết theo cách mình hiểu nên nhiều bài viết của mình sẽ mang tính chất chủ quan và thiếu sót. Các vấn đề mình ghi trong blog, nó có thể là một góc nhìn nhỏ bé trong vô số cách nhìn, chỉ là cách nhìn vào một điểm mà không phải nhìn vào cả trang giấy. Lý do vì kiến thức mình có hạn, chưa đủ rộng như các bậc tiền bối để có góc nhìn đầy đủ và chính xác. Cho nên, nếu có bất cứ sai sót, thắc mắc hay không hiểu nào, mình rất mong nhận được những lời góp ý của các bạn. Những góp ý của các bạn rất quý báu, nó sẽ giúp mình có nhiều góc nhìn cũng như biết được điểm thiếu sót của bản thân.
