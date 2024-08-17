@@ -412,7 +412,7 @@ enableEmoji = true
   [params.author]
     name = "Lê Văn Đông"
     email = "itlvd@outlook.com"
-    link = "https://levandong.dev"
+    link = "https://levandong.com"
     avatar = ""
 
   # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
