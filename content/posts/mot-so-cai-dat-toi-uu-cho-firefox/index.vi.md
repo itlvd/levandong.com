@@ -171,3 +171,10 @@ user_pref("browser.cache.memory.enable", true);
 user_pref("browser.cache.memory.capacity", 524288);
 user_pref("browser.cache.memory.max_entry_size", 512000);
 ```
+
+## Kết luận
+
+Với Firefox, ta có thể cài đặt nhiều thứ khá đặc biệt để đáp ứng cho nhu cầu của từng cá nhân. Ngoài ra, ta cũng có thể backup lại mọi cài đặt của Firefox và khôi phục trong vài giây.
+
+## Tham khảo
+[Tổng hợp những addon chất cho Firefox / Chromium](https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-chromium.682181/)
