@@ -7,7 +7,7 @@ author: "Lê Văn Đông"
 authorLink: "https://www.levandong.com"
 collections: "Tinh chỉnh Firefox"
 tags: ["Firefox", "Privacy"]
-categories: ["Firefox"]
+categories: ["Tips"]
 
 toc:
   auto: false
