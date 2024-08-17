@@ -31,7 +31,7 @@ copyright = ""
 # whether to use robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
-enableGitInfo = false
+enableGitInfo = true
 # whether to use emoji code
 enableEmoji = true
 
@@ -418,7 +418,7 @@ enableEmoji = true
   # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
   [params.gitInfo]
     # e.g. "https://github.com/hugo-fixit/docs"
-    repo = ""
+    repo = "https://github.com/itlvd/levandong.com"
     branch = "main"
     # the content directory path relative to the root of the repository
     dir = "content"
