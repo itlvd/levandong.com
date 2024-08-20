@@ -55,14 +55,14 @@ struct Status
   public uint IsOn;
 
   [BitFields(3)]
-  public uint IsRunning;
+  public uint TimeToRun;
 
   [BitFields(4)]
-  public uint IsFinish;
+  public uint TimeToEat;
 };
 ```
 
-Ở struct trên, biến `IsOn` được đánh dấu là chỉ dùng 1 bit của kiểu dữ liệu uint, `IsRunning` sử dụng 3 bit của uint và `IsFinish` sử dụng 4 bit.
+Ở struct trên, biến `IsOn` được đánh dấu là chỉ dùng 1 bit của kiểu dữ liệu uint, `TimeToRun` sử dụng 3 bit của uint và `TimeToEat` sử dụng 4 bit.
 
 Hiện tại, chúng ta đã tìm ra cách đánh dấu để biết một biết đó chỉ sử dụng bao nhiêu bit. Bây giờ còn một bước cuối là làm sao để chuyển từ struct `Status` thành biến có kiểu dữ liệu `long`.
 
@@ -154,8 +154,8 @@ Sau đó chúng ta có thể viết trong hàm main để test như sau
 ```c#
     Status s = new();
     s.IsOn = 1;
-    s.IsRunning = 5;
-    s.IsFinish = 7;
+    s.TimeToRun = 5;
+    s.TimeToEat = 7;
 
     int size = System.Runtime.InteropServices.Marshal.SizeOf(typeof(Status));
     Console.WriteLine("Bytes:" + size);
@@ -164,7 +164,7 @@ Sau đó chúng ta có thể viết trong hàm main để test như sau
     Console.WriteLine("Convert to long:" + l);
 
     Status s2 = BitFieldsAttribute.Convertion.FromLong<Status>(l);
-    Console.WriteLine("Convert from long:" + string.Format("IsOn:{0}, IsRunning:{1}, IsFinish:{2}", s2.IsOn, s2.IsRunning, s2.IsFinish));
+    Console.WriteLine("Convert from long:" + string.Format("IsOn:{0}, TimeToRun:{1}, TimeToEat:{2}", s2.IsOn, s2.TimeToRun, s2.TimeToEat));
 ```
 
 Kết quả sẽ trả về
@@ -172,7 +172,7 @@ Kết quả sẽ trả về
 ```bash
 Bytes:12
 Convert to long:123
-Convert from long:IsOn:1, IsRunning:5, IsFinish:7
+Convert from long:IsOn:1, TimeToRun:5, TimeToEat:7
 ```
 
 Tổng hợp code sẽ như thế này
