@@ -133,7 +133,7 @@ enableEmoji = true
         url = "/categories/"
         title = ""
         weight = 3
-      [[languages.vi.menu.main]]
+      [[languages.en.menu.main]]
         identifier = "collections"
         pre = ""
         post = ""
