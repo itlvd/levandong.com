@@ -1,7 +1,7 @@
 ---
 title: Lưu trữ dữ liệu tốn ít tài nguyên hơn dựa vào bit trong CSharp
 date: 2024-08-06 
-draft : false
+draft : true
 author: "Lê Văn Đông"
 authorLink: "https://www.levandong.com"
 

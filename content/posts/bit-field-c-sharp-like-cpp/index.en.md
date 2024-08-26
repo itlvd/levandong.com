@@ -1,7 +1,7 @@
 ---
 title: Save data less in database using theory of bit in C#
 date: 2024-08-06 
-draft : false
+draft : true
 author: "Lê Văn Đông"
 authorLink: "https://www.levandong.com"
 
