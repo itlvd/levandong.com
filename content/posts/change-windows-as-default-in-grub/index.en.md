@@ -46,7 +46,7 @@ sudo nano /etc/default/grub
 
 The next, you will see a content in grub file.
 
-![](image-1.webp)
+![](./image-1.webp)
 
 Please pay attention to `GRUB_DEFAULT` and `GRUB_TIMEOUT` .
 
@@ -62,7 +62,7 @@ Read more at [offical document](https://www.gnu.org/software/grub/manual/grub/gr
 
 In the other hand, you can set the timeout for waiting to select OS in `GRUB_TIMEOUT` .
 
-![](image-2.webp)
+![](./image-2.webp)
 
 Then press `Ctrl + X` then `y`, the last is `Enter` to save the file.
 
@@ -72,7 +72,7 @@ The last, you run this command to update grub.
 sudo update-grub
 ```
 
-![](image-3.webp)
+![](./image-3.webp)
 
 Now, please restart your computer and check again.
 

@@ -31,7 +31,7 @@ Nếu bình thường, ta cần tạo 8 bits kiểu char hoặc bool để làm 
 
 **Ví dụ:** 1 byte có 8 bits. Thì mình có thể chia ra làm nhiều vùng nhớ bất kỳ: vùng nhớ $a$ chứa 1 bits đầu, vùng nhớ $b$ chứa 3 bits tiếp theo và vùng nhớ $c$ chứa 4 bits cuối cùng.
 
-![](./image.png)
+![](image.png)
 
 Mở rộng ra thì bạn không bị giới hạn bởi 1 byte, mà bạn hoàn toàn có thể có kiểu dữ liệu 4 bytes và chia ra các vùng nhớ có 8 bits, 10bits,... cũng được luôn.
 
