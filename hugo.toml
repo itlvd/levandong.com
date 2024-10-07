@@ -13,7 +13,7 @@
 # website title
 title = "Dong's Notes"
 # Hostname (and path) to the root
-baseURL = "http://www.levandong.com"
+baseURL = "http://levandong.dev"
 # theme list
 theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
