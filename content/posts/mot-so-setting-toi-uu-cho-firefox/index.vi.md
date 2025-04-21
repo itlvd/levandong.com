@@ -17,9 +17,8 @@ resources:
 - name: "featured-image-preview"
   src: "toi-uu-firefox.png"
 ---
-{{< admonition info >}}
+
 Đây là một số tối ưu dành cho Firefox. Bạn tham khảo, cân nhắc và lựa chọn những setting phù hợp cho cấu hình máy cũng như nhu cầu của các bạn. Để thiết đặt các setting thì các bạn vui lòng đọc bài [Các cách bật cài đặt cho Firefox](/cach-bat-cai-dat-cho-firefox/).
-{{< /admonition >}}
 
 ## Một số setting tối ưu
 

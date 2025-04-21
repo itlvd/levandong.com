@@ -25,7 +25,8 @@ languageName = "Tiếng Việt"
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = false
 # default amount of posts in each pages
-paginate = 12
+[pagination]
+  pagerSize = 12
 # copyright description used only for seo schema
 copyright = ""
 # whether to use robots.txt
@@ -301,7 +302,7 @@ enableEmoji = true
 # -------------------------------------------------------------------------------------
 
 [privacy]
-  [privacy.twitter]
+  [privacy.x]
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true

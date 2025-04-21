@@ -20,7 +20,7 @@ resources:
 lightgallery: true
 ---
 
-{{< admonition danger >}} Ghost đã không còn support SQLite trên production nữa. Bạn cần phải sử dụng MySQL 8 để cài đặt blog của mình. Dù vậy, bài viết này vẫn có giá trị với bạn, ngoại trừ phần SQL {{< /admonition >}}
+Ghost đã không còn support SQLite trên production nữa. Bạn cần phải sử dụng MySQL 8 để cài đặt blog của mình. Dù vậy, bài viết này vẫn có giá trị với bạn, ngoại trừ phần SQL
 
 Nhắc đến thì đây là một nỗi buồn của tôi 🥲. Vào một ngày đẹp trời, với việc nhầm lẫn không cần thiết của mình, tôi đã nhấn nút xoá đi trang blog mà tôi đã chạy bao năm. Bùm, tất cả bài viết của tôi đã không còn nữa. Một nỗi tiếc nuối không thể tả, tôi đã viết khá nhiều bài viết trong khoảng thời gian dài và không có sao lưu dữ liệu cho nên không thể khôi phục lại được nữa. Nỗi đau cùng sự tiếc nuối của mình, tôi xin hứa sẽ không để chuyện đó xảy ra nữa. Cho nên bài viết này ra đời.
 
