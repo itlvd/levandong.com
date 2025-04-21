@@ -1,9 +1,9 @@
 ---
 title: Hiểu về từ khoá this trong Javascript
 date: 2024-04-29 03:34:55
-draft : false
+draft: false
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 
 tags: ["Javascript", "Tips"]
 categories: ["Programming", "Tips"]
@@ -12,10 +12,10 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "hieu-ve-tu-khoa-this-trong-javascript.webp"
-- name: "featured-image-preview"
-  src: "hieu-ve-tu-khoa-this-trong-javascript.webp"
+  - name: "featured-image"
+    src: "hieu-ve-tu-khoa-this-trong-javascript.webp"
+  - name: "featured-image-preview"
+    src: "hieu-ve-tu-khoa-this-trong-javascript.webp"
 
 lightgallery: true
 ---
@@ -37,8 +37,8 @@ const Car = {
   name: "Maybach",
   getCar: function () {
     console.log(this);
-  }
-}
+  },
+};
 
 Car.getCar(); // return: Object { name: "Maybach", getName: getName() }
 ```
@@ -84,16 +84,16 @@ function run() {
   console.log(this); // this số 1
 
   const obj = {
-    name: 'obj',
+    name: "obj",
     run: function () {
       console.log(this); // this số 2
-    }
-  }
+    },
+  };
 
   obj.run();
 }
 
-run()
+run();
 ```
 
 Nhắc lại câu thần chú:
@@ -107,14 +107,14 @@ Với `this` số 1, nó sẽ được chạy khi hàm `run()` được gọi, k
 ```javascript
 const obj = {
   name: "Object",
-  print: function() {
-    console.log(this)
+  print: function () {
+    console.log(this);
   },
-}
+};
 
-const printer = obj.print
+const printer = obj.print;
 
-printer()
+printer();
 ```
 
 Nếu như các bạn nghĩ `this` lúc này là `obj`? Thì các bạn đã có một sự nhầm lẫn rồi. Kết quả lúc này sẽ trả về là `window`, tại sao? Đúng là hàm `print` được gọi từ `obj`. Tuy nhiên, `printer` lúc này được gọi từ `window` tương tự như `window.printer`. Vậy nên, kết quả lúc này từ khoá `this` sẽ trỏ vào `window`.
@@ -128,7 +128,7 @@ console.log(this);
 
 const obj = {
   name: "Object",
-  print: function() {
+  print: function () {
     console.log(this);
 
     function print2() {
@@ -137,7 +137,7 @@ const obj = {
 
     print2();
   },
-}
+};
 
 obj.print();
 ```
@@ -150,6 +150,6 @@ Từ khoá `this` trong javascript sẽ tham chiếu đến đối tượng mà 
 
 ## Tham khảo
 
- [Almighty this, Demystified](https://dillionmegida.com/p/this-demystified/)
+[Almighty this, Demystified](https://dillionmegida.com/p/this-demystified/)
 
 [Từ khóa "this" trong Javascript? Dễ hiểu cùng F8 nào!](https://youtu.be/ii1Ra_zLDIo?si=ORvqrJhcrkufF0Cb)

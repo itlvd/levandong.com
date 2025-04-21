@@ -1,9 +1,9 @@
 ---
 title: Cách backup và khôi phục Ghost CMS
 date: 2023-11-15 09:29:48
-draft : false
+draft: false
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 
 tags: ["Linux", "VPS"]
 categories: ["Linux", "Tips"]
@@ -12,10 +12,10 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "cach-backup-ghost-cms.png"
-- name: "featured-image-preview"
-  src: "cach-backup-ghost-cms.png"
+  - name: "featured-image"
+    src: "cach-backup-ghost-cms.png"
+  - name: "featured-image-preview"
+    src: "cach-backup-ghost-cms.png"
 
 lightgallery: true
 ---
@@ -103,7 +103,7 @@ Choose a number from below, or type in your own value.
 Storage> 13
 ```
 
-Tiếp theo, nó sẽ hỏi client\_id, **nhấn Enter** để bỏ qua:
+Tiếp theo, nó sẽ hỏi client_id, **nhấn Enter** để bỏ qua:
 
 ```txt
 Option client_id.
@@ -217,13 +217,13 @@ rclone lsd dropboxdaily:
 
 Các bạn thay đổi:
 
-> \- **REMOTE\_NAME**(tên remote tạo ở trên)
+> \- **REMOTE_NAME**(tên remote tạo ở trên)
 
-> \- **FOLDER\_SAVE**(tên folder dropbox của bạn)
+> \- **FOLDER_SAVE**(tên folder dropbox của bạn)
 
-> \- **GHOST\_DIR**(nơi bạn cài đặt web)
+> \- **GHOST_DIR**(nơi bạn cài đặt web)
 
-> \- **NAME\_PREFIX**(đặt gì cũng được) thành của bạn là được.
+> \- **NAME_PREFIX**(đặt gì cũng được) thành của bạn là được.
 
 Bạn nhớ đặt file ở thư mục HOME.
 
@@ -283,6 +283,6 @@ Vậy là hoàn thành cách backup dữ liệu của ghost CMS. Các bạn lưu
 
 ## Tham khảo
 
- [\[Linux\] Auto Backup dữ liệu lên Google Drive với Rclone](https://viblo.asia/p/linux-auto-backup-du-lieu-len-google-drive-voi-rclone-RQqKLBJml7z)
+[\[Linux\] Auto Backup dữ liệu lên Google Drive với Rclone](https://viblo.asia/p/linux-auto-backup-du-lieu-len-google-drive-voi-rclone-RQqKLBJml7z)
 
 [Rclone](https://rclone.org/)

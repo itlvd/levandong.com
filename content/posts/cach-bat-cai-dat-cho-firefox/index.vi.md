@@ -1,9 +1,9 @@
 ---
 title: Các cách bật cài đặt cho Firefox
 date: 2024-08-17 00:00:00
-draft : false
+draft: false
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 collections: "Tinh chỉnh Firefox"
 tags: ["Firefox", "Privacy"]
 categories: ["Tips"]
@@ -12,17 +12,18 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "setting-firefox.png"
-- name: "featured-image-preview"
-  src: "setting-firefox.png"
+  - name: "featured-image"
+    src: "setting-firefox.png"
+  - name: "featured-image-preview"
+    src: "setting-firefox.png"
 ---
 
 Firefox là một trình duyệt web nâng cao, để sử dụng nó bạn cần tối ưu theo cách của bạn. Nếu bạn cần một trình duyệt chỉ cần cài và dùng? Hãy chọn Chrome. Nếu bạn cần một trình duyệt đáp ứng được nhu cầu công việc, tối ưu hóa cách làm việc, tinh chỉnh cho phù hợp cá nhân thì bạn hãy chọn Firefox.
 
 {{< admonition question "Firefox có thể cài và dùng được không?" false >}}
+
 - Firefox bạn cũng có thể cài và dùng như Chrome và nếu muốn thì bạn thêm tinh chỉnh theo nhu cầu cá nhân. Tức là như Chrome và thêm tinh chỉnh cá nhân.
-{{< /admonition >}}
+  {{< /admonition >}}
 
 Có hai cách để bạn cài setting cho trình duyệt của mình. Mình khuyến khích dùng [cách 2](./#cách-thay-đổi-bằng-file-khuyến-khích-sử-dụng) để tiện cho việc backup và khôi phục.
 
@@ -31,7 +32,7 @@ Có hai cách để bạn cài setting cho trình duyệt của mình. Mình khu
 ### Cách thay đổi trực tiếp trên trình duyệt
 
 {{< admonition info >}}
-Khi bạn thay đổi bằng cách này, trình duyệt của bạn sẽ áp dụng khi bạn khởi động lại trình duyệt. Và những cài đặt này sẽ không thể đồng bộ với Firefox được. 
+Khi bạn thay đổi bằng cách này, trình duyệt của bạn sẽ áp dụng khi bạn khởi động lại trình duyệt. Và những cài đặt này sẽ không thể đồng bộ với Firefox được.
 
 Khi bạn chuyển sang máy khác và bật `Sync` thì những gì bạn cài đặt sẽ mất. Nếu bạn muốn sao lưu và khôi phục tất cả cài đặt thì chuyển sang [Mục 1.2](./#c%c3%a1ch-thay-%c4%91%e1%bb%95i-b%e1%ba%b1ng-file-khuy%e1%ba%bfn-kh%c3%adch-s%e1%bb%ad-d%e1%bb%a5ng).
 {{< /admonition >}}
@@ -48,6 +49,7 @@ Các bạn nhập vào trên thanh địa chỉ là `about:config` để truy c�
 
 {{< admonition example >}}
 Khi mình gửi theo dạng:
+
 - `user_pref("network.dns.disableIPv6", true);` tức là bạn sẽ search `network.dns.disableIPv6` và giá trị của nó bật lên là `true`.
 
 {{< /admonition >}}
@@ -57,7 +59,6 @@ Khi mình gửi theo dạng:
 
 **Sau khi chỉnh sửa**:
 ![Sau khi giá trị thay đổi](./aboutconfigipv6true.png)
-
 
 ### Cách thay đổi bằng file (Khuyến khích sử dụng)
 
@@ -93,4 +94,5 @@ Khi mình để `user_pref("network.IDN_show_punycode", true);` thì các bạn 
 Với Firefox, các bạn có thể cài đặt Setting thông qua UI hoặc qua file `user.js`. Với Setting thông qua UI thì sẽ không đồng bộ mỗi khi bạn cài lại hệ điều hành hay đổi máy mới. Với cài qua file `user.js`, bạn có thể khôi phục Setting chỉ với vài giây ngắn ngủi.
 
 ## Tham khảo
+
 [Tổng hợp những addon chất cho Firefox / Chromium](https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-chromium.682181/)

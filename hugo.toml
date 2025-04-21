@@ -13,7 +13,7 @@
 # website title
 title = "Dong's Notes"
 # Hostname (and path) to the root
-baseURL = "http://www.levandong.com"
+baseURL = "http://levandong.dev"
 # theme list
 theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
@@ -429,13 +429,13 @@ enableEmoji = true
   [params.author]
     name = "Lê Văn Đông"
     email = "itlvd@outlook.com"
-    link = "https://levandong.com"
+    link = "https://levandong.dev"
     avatar = ""
 
   # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
   [params.gitInfo]
     # e.g. "https://github.com/hugo-fixit/docs"
-    repo = "https://github.com/itlvd/levandong.com"
+    repo = "https://github.com/itlvd/levandong.dev"
     branch = "main"
     # the content directory path relative to the root of the repository
     dir = "content"
@@ -557,7 +557,7 @@ enableEmoji = true
       animate = true
       icon = "fa-solid fa-heartbeat"
       pre = ""
-      value = "" # e.g. "2021-12-18T16:15:22+08:00"
+      value = "2019-10-15T00:00:00+07:00" # e.g. "2021-12-18T16:15:22+08:00"
     # FixIt 0.2.17 | NEW footer lines order, optional values: ["first", 0, 1, 2, 3, 4, 5, "last"]
     [params.footer.order]
       powered = 0
@@ -1208,7 +1208,7 @@ enableEmoji = true
       # FixIt 0.2.14 | NEW Giscus comments config
       [params.page.comment.giscus]
         enable = true
-        repo = "itlvd/levandong.com"
+        repo = "itlvd/levandong.dev"
         repoId = "R_kgDOKgNYdQ"
         category = "Comment"
         categoryId = "DIC_kwDOKgNYdc4CgKfU"

@@ -1,9 +1,9 @@
 ---
 title: Cách sao lưu và khôi phục Firefox toàn vẹn
-date: 2024-08-11 
-draft : false
+date: 2024-08-11
+draft: false
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 collections: "Tinh chỉnh Firefox"
 tags: ["Firefox", "Privacy"]
 categories: ["Tips"]
@@ -12,10 +12,10 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "backup-and-restore-firefox.png"
-- name: "featured-image-preview"
-  src: "backup-and-restore-firefox.png"
+  - name: "featured-image"
+    src: "backup-and-restore-firefox.png"
+  - name: "featured-image-preview"
+    src: "backup-and-restore-firefox.png"
 
 lightgallery: true
 ---
@@ -34,10 +34,11 @@ Firefox là một trình duyệt tốt và có nhiều tính năng hay như cont
 
 {{< admonition info >}}
 Đây chính là thư mục bạn cần backup. Cách backup có rất nhiều cách như:
+
 - Chuyển thư mục này sang ổ Data để không bị mất khi cài lại Win.
 - Sử dụng Google Drive, OneDrive hoặc cac dịch vụ lưu trữ nào để backup.
 - Sử dụng Git để backup.
-{{< /admonition >}}
+  {{< /admonition >}}
 
 {{< admonition danger >}} Trước khi backup, vui lòng tắt trình duyệt Firefox để tránh `copy` hoặc `move` bị lỗi. {{< /admonition >}}
 
@@ -80,6 +81,7 @@ Cuối cùng, bạn đã hoàn thành cách khôi phục lại Firefox. Bây gi�
 Nếu bạn đã thử thành công bước trên thì sẽ có lúc bạn nghịch profile của bạn và dẫn đến bị lỗi. Khi đó profile của bạn bị hỏng hoàn toàn và chỉ còn cách tạo profile mới.
 
 Tuy nhiên, các bạn có thể giữ lại một số file quan trọng để cứu dữ liệu của bạn.
+
 - `places.sqlite`: lưu bookmark và history.
 - `cookies.sqlite`: lưu thông tin đăng nhập.
 - `cert9.db`, `key4.db` + `logins.json`: lưu mật khẩu cá nhân.
@@ -101,4 +103,5 @@ Tuy nhiên, các bạn có thể giữ lại một số file quan trọng để 
 Chúc các bạn thành công.
 
 ## Tham khảo
+
 [Tổng hợp những addon chất cho Firefox / Chromium](https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-chromium.682181/)

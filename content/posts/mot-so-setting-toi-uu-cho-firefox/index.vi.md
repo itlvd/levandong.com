@@ -1,9 +1,9 @@
 ---
 title: Một số setting tối ưu cho Firefox
 date: 2024-08-17 01:01:01
-draft : false
+draft: false
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 collections: "Tinh chỉnh Firefox"
 tags: ["Firefox", "Privacy"]
 categories: ["Tips"]
@@ -12,10 +12,10 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "toi-uu-firefox.png"
-- name: "featured-image-preview"
-  src: "toi-uu-firefox.png"
+  - name: "featured-image"
+    src: "toi-uu-firefox.png"
+  - name: "featured-image-preview"
+    src: "toi-uu-firefox.png"
 ---
 
 Đây là một số tối ưu dành cho Firefox. Bạn tham khảo, cân nhắc và lựa chọn những setting phù hợp cho cấu hình máy cũng như nhu cầu của các bạn. Để thiết đặt các setting thì các bạn vui lòng đọc bài [Các cách bật cài đặt cho Firefox](/cach-bat-cai-dat-cho-firefox/).
@@ -29,6 +29,7 @@ Trên Firefox bạn có thể dễ dàng dọn dẹp Firefox nhẹ hơn mà khô
 ```javascript
 user_pref("privacy.sanitize.useOldClearHistoryDialog", true);
 ```
+
 Sau đó, nhấn tổ hợp phím `Ctrl + Shift + Delete` để mở hộp thoại xóa rác.
 
 {{< admonition danger Lưu ý >}}
@@ -51,7 +52,7 @@ Sau đó các bạn kéo hai công cụ hình cờ-lê và cây kéo vào thanh 
 
 ### Bật Punnycode chống giả mạo tên miền
 
-Dùng để chống các tên miền giả mạo như `lêvandong.com` giả mạo của `levandong.com` thành `xn--lvandong-k1a.com`. Như vậy bạn sẽ nhận biết được tên miền giả mạo dễ hơn. [Đọc thêm](/firefox-co-gi-hay/#punnycode-giả-mạo-tên-miền)
+Dùng để chống các tên miền giả mạo như `lêvandong.com` giả mạo của `levandong.dev` thành `xn--lvandong-k1a.com`. Như vậy bạn sẽ nhận biết được tên miền giả mạo dễ hơn. [Đọc thêm](/firefox-co-gi-hay/#punnycode-giả-mạo-tên-miền)
 
 ```javascript
 user_pref("network.IDN_show_punycode", true);
@@ -59,14 +60,17 @@ user_pref("network.IDN_show_punycode", true);
 
 ### Bật container không cần extension
 
-Một container như một tab ẩn danh vậy và tab ẩn danh này lưu được mật khẩu không bị mất khi tắt trình duyệt. [Đọc thêm]((/firefox-co-gi-hay/#container)).
+Một container như một tab ẩn danh vậy và tab ẩn danh này lưu được mật khẩu không bị mất khi tắt trình duyệt. [Đọc thêm](<(/firefox-co-gi-hay/#container)>).
 
 ```javascript
 user_pref("privacy.userContext.enabled", true);
 user_pref("privacy.userContext.ui.enabled", true);
 ```
+
 ### Lướt các trang web bị chặn truy cập
+
 Để lướt các trang web bị chặn các bạn cần bật ECH, Firefox bản mới nhất hiện đang bật mặc định, các bạn chỉ cần thêm 2 khóa sau để truy cập. [Đọc thêm](/firefox-co-gi-hay/#lướt-các-trang-web-bị-chặn)
+
 #### Bật Kyber
 
 ```javascript
@@ -74,6 +78,7 @@ user_pref("privacy.userContext.ui.enabled", true);
 user_pref("security.tls.enable_kyber", true);
 user_pref("network.http.http3.enable_kyber", true);
 ```
+
 Tiếp theo các bạn cần bật DoH như hướng dẫn bên dưới. Có 2 cách cài đặt thông qua Setting UI và qua file `user.js`.
 
 #### Cập nhật DNS over Https (DoH)
@@ -81,7 +86,7 @@ Tiếp theo các bạn cần bật DoH như hướng dẫn bên dưới. Có 2 c
 ##### Cập nhật bằng Setting của Firefox
 
 Sau đó, các bạn vào `Setting của Firefox → Privacy & Security → Enable DNS over HTTPS using → Max Protection → NextDNS`.
-Bạn có thể chọn NextDNS hoặc Cloudflare gì cũng được. Khi nào bạn không truy cập được web thì đổi thành `Cloudflare`, còn không thì dùng `NextDNS` để lướt web nhanh hơn. 
+Bạn có thể chọn NextDNS hoặc Cloudflare gì cũng được. Khi nào bạn không truy cập được web thì đổi thành `Cloudflare`, còn không thì dùng `NextDNS` để lướt web nhanh hơn.
 
 ![Cài DoH thông qua Setting UI](./settingdns.png)
 
@@ -97,6 +102,7 @@ user_pref("network.trr.uri", "https://firefox.dns.nextdns.io/");
 Sau đó, các bạn thử truy cập trang Medium xem được chưa nhé.
 
 ### Bật RamDisk trên Firefox
+
 Cache là file tạm để tối ưu tốc độ khi duyệt web. Nhưng Firefox mặc định sẽ sử dụng ổ đĩa thay vì RAM để cache. RAM có tốc độ rất cao khi so sánh với Disk. Cho nên, việc lưu trữ dữ liệu trên RAM sẽ cho tốc độ duyệt web nhanh hơn. Tuy nhiên, khi lưu trữ RAM thì cache sẽ bị xóa khi bạn tắt máy và chỉ tối ưu nếu như bạn không tắt máy thường xuyên, còn Disk thì sẽ được lưu lại tối ưu nếu bạn có thói quen tắt máy sau khi sử dụng. Ngoài ra, khi sử dụng RamDisk thì sẽ hạn chế ghi vào ổ SSD sẽ giúp bạn hạn chế giảm tuổi thọ của Disk bạn đang sử dụng.
 
 > Với người dùng không hiểu ý trên đang nói gì, thì giữ nguyên, **không** đem config này vào file `user.js`
@@ -107,6 +113,7 @@ user_pref("browser.cache.memory.enable", true);
 user_pref("browser.cache.memory.capacity", 524288);
 user_pref("browser.cache.memory.max_entry_size", 512000);
 ```
+
 ### Các tối ưu của Betterfox
 
 Đây là các setting của các người dùng Firefox chuyên sâu. Các bạn có thể yên tâm sử dụng vì nó chỉ có mục đích xóa theo dõi của Firefox, tăng cache để tăng tốc, tắt các tính năng dư thừa,...
@@ -117,11 +124,11 @@ user_pref("browser.cache.memory.max_entry_size", 512000);
  * "Ad meliora"                                                             *
  * version: 128                                                             *
  * url: https://github.com/yokoffing/Betterfox                              *
-****************************************************************************/
+ ****************************************************************************/
 
 /****************************************************************************
  * SECTION: FASTFOX                                                         *
-****************************************************************************/
+ ****************************************************************************/
 /** GENERAL ***/
 user_pref("content.notify.interval", 100000);
 
@@ -182,15 +189,21 @@ user_pref("dom.private-attribution.submission.enabled", false);
 
 /****************************************************************************
  * SECTION: PESKYFOX                                                        *
-****************************************************************************/
+ ****************************************************************************/
 /** MOZILLA UI ***/
 user_pref("browser.privatebrowsing.vpnpromourl", "");
 user_pref("extensions.getAddons.showPane", false);
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
 user_pref("browser.discovery.enabled", false);
 user_pref("browser.shell.checkDefaultBrowser", false);
-user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
-user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features", false);
+user_pref(
+  "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons",
+  false
+);
+user_pref(
+  "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features",
+  false
+);
 user_pref("browser.preferences.moreFromMozilla", false);
 user_pref("browser.tabs.tabmanager.enabled", false);
 user_pref("browser.aboutConfig.showWarning", false);
@@ -234,20 +247,20 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 
 /****************************************************************************
  * START: MY OVERRIDES                                                      *
-****************************************************************************/
+ ****************************************************************************/
 // visit https://github.com/yokoffing/Betterfox/wiki/Common-Overrides
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
 
 /****************************************************************************
  * SECTION: SMOOTHFOX                                                       *
-****************************************************************************/
+ ****************************************************************************/
 // visit https://github.com/yokoffing/Betterfox/blob/main/Smoothfox.js
 // Enter your scrolling overrides below this line:
 
 /****************************************************************************
  * END: BETTERFOX                                                           *
-****************************************************************************/
+ ****************************************************************************/
 ```
 
 ### Bật tính năng thay đổi background của New Tab
@@ -291,7 +304,7 @@ user_pref("mousewheel.enable_pixel_scrolling", false);
 
 ### Cài extension bên ngoài không thông qua Firefox Addons
 
-Bạn muốn cài extension bên ngoài? 
+Bạn muốn cài extension bên ngoài?
 
 ```javascript
 user_pref("xpinstall.signatures.required", false);
@@ -314,9 +327,11 @@ Tối ưu bytecode và lúc nào cũng nén bytecode
 user_pref("browser.cache.jsbc_compression_level", 2);
 user_pref("dom.script_loader.bytecode_cache.strategy", -1);
 ```
+
 ### Tối ưu javascript
 
 Dùng để tối ưu javascript. Riêng `javascript.options.mem.gc_max_parallel_marking_threads` các bạn nên chỉnh theo số luồng đang có trên cpu của bạn. Nếu không xác định được máy tính bạn có bao nhiêu luồng thì để mặc định là `4`.
+
 ```javascript
 user_pref("javascript.options.experimental.shadow_realms", true);
 user_pref("javascript.options.mem.gc_balanced_heap_limits", true);
@@ -327,6 +342,7 @@ user_pref("javascript.options.spectre.string_mitigations", false);
 user_pref("javascript.options.spectre.value_masking", false);
 user_pref("javascript.options.wasm_experimental_compile_pipeline", true);
 ```
+
 ## Một số setting từ các chuyên gia
 
 Đây là hai nơi có user.js khá an toàn và lành tính, không làm thay đổi trải nghiệm của người dùng quá nhiều.
@@ -340,4 +356,5 @@ user_pref("javascript.options.wasm_experimental_compile_pipeline", true);
 Với Firefox, ta có thể cài đặt nhiều thứ khá đặc biệt để đáp ứng cho nhu cầu của từng cá nhân. Ngoài ra, ta cũng có thể backup lại mọi cài đặt của Firefox và khôi phục trong vài giây.
 
 ## Tham khảo
+
 [Tổng hợp những addon chất cho Firefox / Chromium](https://voz.vn/t/tong-hop-nhung-addon-chat-cho-firefox-chromium.682181/)

@@ -2,9 +2,9 @@
 title: Fluid Communities - Thuật toán nhận diện cộng đồng
 
 date: 2022-11-14 02:19:32
-draft : false
+draft: false
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 
 tags: ["Data", "Graph"]
 categories: ["Machine Learning"]
@@ -13,13 +13,12 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "fluid-communities-thuat-toan-nhan-dien-cong-dong.webp"
-- name: "featured-image-preview"
-  src: "fluid-communities-thuat-toan-nhan-dien-cong-dong.webp"
+  - name: "featured-image"
+    src: "fluid-communities-thuat-toan-nhan-dien-cong-dong.webp"
+  - name: "featured-image-preview"
+    src: "fluid-communities-thuat-toan-nhan-dien-cong-dong.webp"
 
 lightgallery: true
-
 ---
 
 ## A. Dẫn nhập
@@ -32,8 +31,7 @@ Vậy các bạn có bao giờ thắc mắc, khi có một đồ thị như th�
 
 Trước tiên, chúng ta cần tìm hiểu tổng quan về thuật toán này trước
 
->  Đây là thuật toán học không giám sát. Tuy nhiên, cần biết trước số lượng cộng đồng thì thuật toán này mới có thể hoạt động được. Ý tưởng dựa trên việc: nút đang xét sẽ thuộc về cộng đồng có tổng trọng số kết nối tới nút đó là lớn nhất.
-
+> Đây là thuật toán học không giám sát. Tuy nhiên, cần biết trước số lượng cộng đồng thì thuật toán này mới có thể hoạt động được. Ý tưởng dựa trên việc: nút đang xét sẽ thuộc về cộng đồng có tổng trọng số kết nối tới nút đó là lớn nhất.
 
 ## B. Mô tả chi tiết hoạt động
 
@@ -75,7 +73,6 @@ Ta có thể tính được trọng số của C khi thuộc lớp đỏ là 0.6
 
 Đến vòng lặp thứ 2, ta không thể tìm thấy đỉnh nào thuộc lớp mới nữa, nên thuật toán dừng lại.
 
-
 #### Triển khai với 2 điểm bắt đầu là B và G
 
 Giả sử như bây giờ chúng ta thử chọn random 2 điểm bắt đầu ở một vị trí khác là G và B.
@@ -96,7 +93,7 @@ Tiếp theo ta chọn ngẫu nhiên điểm C. Ta thấy C trọng số C thuộ
 
 Tiếp tục xét các điểm A, B, D, E, G. Tuy nhiên, không thay đổi trọng số và thay đổi lớp. Đến vòng lặp thứ ba, xét tất cả các điểm A, B, C, D, E, D, G thì không có sự thay đổi lớp nào, nên thuật toán dừng.
 
-Các bạn có thấy 2 cách chọn điểm khác nhau sẽ dẫn đến kết quả duyệt nhiều hay ít khác nhau không? 
+Các bạn có thấy 2 cách chọn điểm khác nhau sẽ dẫn đến kết quả duyệt nhiều hay ít khác nhau không?
 
 > Do vậy, chúng ta có thể thấy cách chọn điểm cũng ảnh hưởng đến tốc độ chạy của thuật toán.
 

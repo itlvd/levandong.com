@@ -1,9 +1,9 @@
 ---
 title: Đổi grub boot mặc định
 date: 2024-03-23 03:21:58
-draft : false
+draft: false
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 
 tags: ["Linux", "Tips"]
 categories: ["Linux", "Tips"]
@@ -12,10 +12,10 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "change-windows-as-default-in-grub.webp"
-- name: "featured-image-preview"
-  src: "change-windows-as-default-in-grub.webp"
+  - name: "featured-image"
+    src: "change-windows-as-default-in-grub.webp"
+  - name: "featured-image-preview"
+    src: "change-windows-as-default-in-grub.webp"
 
 lightgallery: true
 ---
@@ -52,9 +52,9 @@ Bạn có thể thay đổi thứ tự thành `2` để setup Windows là hệ �
 
 **💡 Nếu như bạn không muốn setup 1 hệ điều hành mặc định liên tục mà muốn nó nhớ hệ điều hành cuối cùng mà bạn sử dụng, các bạn có thể setup như sau:**
 
-> GRUB\_DEFAULT=saved
+> GRUB_DEFAULT=saved
 
-> GRUB\_SAVEDEFAULT=true
+> GRUB_SAVEDEFAULT=true
 
 Xem thêm tại [offical document](https://www.gnu.org/software/grub/manual/grub/grub.html#Simple-configuration:~:text=If%20this%20option%20is%20set%20to%20%E2%80%98true%E2%80%99%2C%20then%2C%20when%20an%20entry%20is%20selected%2C%20save%20it%20as%20a%20new%20default%20entry%20for%20use%20by%20future%20runs%20of%20GRUB).
 

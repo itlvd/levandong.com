@@ -1,9 +1,9 @@
 ---
 title: Save data less in database using theory of bit in C#
-date: 2024-08-06 
-draft : true
+date: 2024-08-06
+draft: true
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 
 tags: ["C-Sharp", "Tips"]
 categories: ["Programming"]
@@ -12,10 +12,10 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "bit-field-c-sharp-like-cpp.png"
-- name: "featured-image-preview"
-  src: "bit-field-c-sharp-like-cpp.png"
+  - name: "featured-image"
+    src: "bit-field-c-sharp-like-cpp.png"
+  - name: "featured-image-preview"
+    src: "bit-field-c-sharp-like-cpp.png"
 
 lightgallery: true
 ---
@@ -36,7 +36,7 @@ Here's how we define an Attribute to specify bit length:
 public class BitFieldsAttribute : Attribute
 {
   uint length;
-  public BitFieldsAttribute(uint length) 
+  public BitFieldsAttribute(uint length)
   {
     this.length = length;
   }
@@ -74,15 +74,15 @@ For this, we’ll create a `Convertion` class to handle the conversion:
 public static class Convertion{
     public static long ToLong<T>(T t) where T : struct
     {
-      long r = 0; 
-      int offset = 0; 
+      long r = 0;
+      int offset = 0;
 
       foreach (System.Reflection.FieldInfo f in t.GetType().GetFields())
       {
         object[] attrs = f.GetCustomAttributes(typeof(BitFieldsAttribute), false);
         if (attrs.Length == 1)
         {
-          uint fieldLength = ((BitFieldsAttribute)attrs[0]).Length; 
+          uint fieldLength = ((BitFieldsAttribute)attrs[0]).Length;
           long mask = 0;
           for (int i = 0; i < fieldLength; i++)
             mask |= (uint)(1 << i);
@@ -102,10 +102,10 @@ Now, let's reverse the process, converting from `long` back to `struct`:
 public static class Convertion{
   public static T FromLong<T>(long l) where T : struct
     {
-      T t = new T(); 
-      Object boxed = t; 
-      int offset = 0; 
-     
+      T t = new T();
+      Object boxed = t;
+      int offset = 0;
+
       foreach (System.Reflection.FieldInfo f in t.GetType().GetFields())
       {
         object[] attrs = f.GetCustomAttributes(typeof(BitFieldsAttribute), false);
@@ -114,12 +114,12 @@ public static class Convertion{
 
           uint fieldLength = ((BitFieldsAttribute)attrs[0]).Length;
 
-        
+
           long mask = 0;
           for (int i = 0; i < fieldLength; i++)
             mask |= (uint)(1 << i);
 
-        
+
           var value = Convert.ChangeType((l >> offset) & mask, f.FieldType);
 
           var fieldAttribute = typeof(T).GetField(f.Name, BindingFlags.Instance | BindingFlags.Public);
@@ -128,7 +128,7 @@ public static class Convertion{
 
           t = (T)boxed;
 
-      
+
           offset += (int)fieldLength;
         }
       }

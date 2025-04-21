@@ -2,9 +2,9 @@
 title: Firefox có gì hay?
 
 date: 2024-08-04 02:19:32
-draft : false
+draft: false
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 collections: "Tinh chỉnh Firefox"
 tags: ["Firefox", "Privacy"]
 categories: ["Tips"]
@@ -13,15 +13,13 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "firefox-co-gi-hay.webp"
-- name: "featured-image-preview"
-  src: "firefox-co-gi-hay.webp.webp"
+  - name: "featured-image"
+    src: "firefox-co-gi-hay.webp"
+  - name: "featured-image-preview"
+    src: "firefox-co-gi-hay.webp.webp"
 
 lightgallery: true
-
 ---
-
 
 ## Thế giới trình duyệt
 
@@ -34,7 +32,6 @@ Vậy bạn đã từng hỏi, trình duyệt miễn phí như thế thì tiền
 Hay tiếng Việt là
 
 > Nếu bạn không phải trả tiền thì bạn chính là sản phẩm.
-
 
 Mình thiết nghĩ câu này đúng, Google là một ví dụ điển hình nhất cho câu nói này. Bạn có thể sử dụng phần lớn sản phẩm của Google một cách hoàn toàn miễn phí, từ Gmail, Google Drive, Google Doc, Youtube,... và nổi tiếng nhất có lẽ là Google Search. Vậy doanh thu đến từ đâu? Câu trả lời hợp lý nhất cho câu hỏi này là **Quảng cáo.** Họ sẽ thu thập tất cả những thông tin từ bạn như sở thích, thói quen, giới tính, lịch sử duyệt web,... nhằm mục đích chính là phân phối quảng cáo sao cho phù hợp nhất với bạn. Nhưng lúc bạn chưa có nhu cầu mua thì quảng cáo vẫn xuất hiện với tần suất dày đặc. Hay có khả năng bạn sẽ là mục tiêu cho các đối tượng chạy quảng cáo lừa đảo? Thậm chí, tệ hơn nữa là thông tin của bạn có thể sẽ bị bán cho bên thứ ba, còn họ làm gì với thông tin đó thì...
 
@@ -68,10 +65,9 @@ Firefox là một trình duyệt bạn có thể custom nhiều thứ, mặc đ�
 
 **Lướt web nhanh**: Firefox lướt web nói chung là nhanh, không hề chậm như mọi người vẫn nghĩ. Tuy nhiên, cơ chế của Firefox mặc định là không sử dụng preload, cho nên bạn sẽ có cảm giác lướt web chậm hơn Chrome nhưng sẽ tiết kiệm băng thông hơn Chrome. Bạn hoàn toàn có thể cài đặt để nó preload trước để tăng tốc độ lướt web. => Mình thích cách Chrome preload hơn.
 
-**Tốn ít RAM**: Khi chạy Firefox bạn sẽ thấy Firefox chiếm nhiều RAM hơn, do Firefox để nguyên dữ liệu trên RAM không hề nén. Với mình, mình thích cách Firefox hơn vì nó làm tăng tốc độ *sử dụng Firefox* hoặc reload trang web. Mình thậm chí còn ép Firefox cache trên RAM thay vì cache trên ổ cứng như cài đặt mặc định của Firefox. Nếu máy bạn ít RAM thì cứ để nguyên mặc định sử dụng.
+**Tốn ít RAM**: Khi chạy Firefox bạn sẽ thấy Firefox chiếm nhiều RAM hơn, do Firefox để nguyên dữ liệu trên RAM không hề nén. Với mình, mình thích cách Firefox hơn vì nó làm tăng tốc độ _sử dụng Firefox_ hoặc reload trang web. Mình thậm chí còn ép Firefox cache trên RAM thay vì cache trên ổ cứng như cài đặt mặc định của Firefox. Nếu máy bạn ít RAM thì cứ để nguyên mặc định sử dụng.
 
 **Nhiều trang web hỗ trợ**: Nếu nói về số lượng trang web hỗ trợ thì Chrome là vô đối, Firefox rất khó để so sánh với Chrome. Tuy nhiên, phần lớn trang web hoạt động rất tốt trên Firefox, rất ít trang web mà bị lỗi với Firefox. Nhưng so sánh thì Chrome vô đối.
-
 
 {{< admonition info >}}Có một tin buồn khi bạn sử dụng Firefox, bạn có thể bị bóp bẩn bởi chính Google, khi bạn truy cập các trang dịch vụ của Google như Google Drive hay Youtube. Google sẽ bóp cho chậm hơn khi sử dụng với Chrome. Một ông lớn mà làm vậy thì quá tiếc, tuy nhiên, trải nghiệm không phải là tệ, chỉ là chậm hơn so với Chrome thôi.{{< /admonition >}}
 
@@ -89,7 +85,7 @@ Cho các bạn chưa biết, Firefox mặc định bật [Total Cookies Protecti
 
 ### Punnycode giả mạo tên miền
 
-Bạn có thể bật punycode để tránh vào trang web lừa đảo. Như `levandong.com` thì nó có thể fake lại thành `lêvandong.com` nhìn không kỹ rất dễ nhầm lẫn, nhưng đây là trường hợp dễ, hacker nó fake đến mức bạn không nhận ra điều khác biệt luôn cơ. Với Firefox nó sẽ hiện `lêvandong.com` theo dạng `xn--lvandong-k1a.com`.
+Bạn có thể bật punycode để tránh vào trang web lừa đảo. Như `levandong.dev` thì nó có thể fake lại thành `lêvandong.com` nhìn không kỹ rất dễ nhầm lẫn, nhưng đây là trường hợp dễ, hacker nó fake đến mức bạn không nhận ra điều khác biệt luôn cơ. Với Firefox nó sẽ hiện `lêvandong.com` theo dạng `xn--lvandong-k1a.com`.
 
 ### Container
 
@@ -111,7 +107,7 @@ Medium là một trang web hay nhưng bị chặn truy cập tại Việt Nam. N
 
 ### Cài nhiều Addon và dùng lâu ngày
 
-Có một sự thật là khi bạn dùng Firefox, bạn cài addon thì sẽ không làm giảm hiệu năng của bạn và RAM không tốn nhiều, trải nghiệm của bạn sẽ rất mượt mà. Addon trên Firefox họ làm rất tốt. Tuy nhiên, nếu bạn sử dụng Chrome thì bạn có khả năng sẽ bị chậm khi cài quá nhiều addon và tốn RAM rất nhiều. Và khi sử dụng lâu ngày, Firefox hay Chrome đều chậm đi, với Firefox bạn chỉ cần xóa *cache* và *offline data* thì nó sẽ nhanh trở lại, nhưng với Chrome bạn chỉ có thể xóa nguyên profiles thôi.
+Có một sự thật là khi bạn dùng Firefox, bạn cài addon thì sẽ không làm giảm hiệu năng của bạn và RAM không tốn nhiều, trải nghiệm của bạn sẽ rất mượt mà. Addon trên Firefox họ làm rất tốt. Tuy nhiên, nếu bạn sử dụng Chrome thì bạn có khả năng sẽ bị chậm khi cài quá nhiều addon và tốn RAM rất nhiều. Và khi sử dụng lâu ngày, Firefox hay Chrome đều chậm đi, với Firefox bạn chỉ cần xóa _cache_ và _offline data_ thì nó sẽ nhanh trở lại, nhưng với Chrome bạn chỉ có thể xóa nguyên profiles thôi.
 
 ### Khả năng backup của Firefox rất tuyệt vời
 
@@ -157,7 +153,7 @@ Công cụ lấy mã màu trực tiếp trên website, Firefox có sẵn tính n
 
 ## Kết
 
-Firefox là một trình duyệt đáng để thử. Nếu hợp, bạn có thể dùng làm trình duyệt chính. Mình cũng chuyển từ Chrome sang Firefox, vì 2 tính năng quá dính là Container và Backup Profiles mà mình không thể đổi sang một trình duyệt nào khác nữa. Nếu bạn là một người mới từ Chrome sang, bạn hãy sử dụng tính năng Import của Firefox để chuyển, và chịu khó thời gian ban đầu vì chưa quen cách sử dụng, nhưng một thời gian mình tin là bạn quen sẽ cảm thấy thích nó. 
+Firefox là một trình duyệt đáng để thử. Nếu hợp, bạn có thể dùng làm trình duyệt chính. Mình cũng chuyển từ Chrome sang Firefox, vì 2 tính năng quá dính là Container và Backup Profiles mà mình không thể đổi sang một trình duyệt nào khác nữa. Nếu bạn là một người mới từ Chrome sang, bạn hãy sử dụng tính năng Import của Firefox để chuyển, và chịu khó thời gian ban đầu vì chưa quen cách sử dụng, nhưng một thời gian mình tin là bạn quen sẽ cảm thấy thích nó.
 
 Mình đã từng giới thiệu nhiều người, và họ cảm thấy tại sao họ không thể biết được sớm hơn. Người dùng Firefox khá ít và mặc định cài máy các kỹ thuật viên sẽ cài Chrome thay vì Firefox. Nhưng thật sự cũng rất khó nói, Firefox khi cài đặt mà không chỉnh thì sẽ không khác gì Chrome thậm chí thua Chrome, nhưng một khi sử dụng, tinh chỉnh cho phù hợp với nhu cầu, thì bạn sẽ thấy Chrome không có giải pháp tương tự.
 

@@ -1,12 +1,12 @@
 ---
-title : 'Khai thác luật kết hợp với thuật toán Apriori'
-date : 2021-10-20T17:31:25+07:00
-draft : false
+title: "Khai thác luật kết hợp với thuật toán Apriori"
+date: 2021-10-20T17:31:25+07:00
+draft: false
 math:
   enable: true
 
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 
 tags: ["Data", "Math"]
 categories: ["Machine Learning"]
@@ -15,10 +15,10 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "luat-ket-hop-thuat-toan-apriori-data-mining.webp"
-- name: "featured-image-preview"
-  src: "luat-ket-hop-thuat-toan-apriori-data-mining.webp"
+  - name: "featured-image"
+    src: "luat-ket-hop-thuat-toan-apriori-data-mining.webp"
+  - name: "featured-image-preview"
+    src: "luat-ket-hop-thuat-toan-apriori-data-mining.webp"
 
 lightgallery: true
 ---
@@ -31,7 +31,7 @@ Mở đầu bài viết, chúng ta hãy tìm hiểu về quan hệ điều kiệ
 
 Bạn có thấy thông tin này nó đương nhiên và không hữu ích? Và những thông tin kiểu này thường không phải là thông tin mới, nó là cái điều mà ai cũng biết ấy.
 
-Tuy nhiên trong cuộc sống, quan hệ điều kiện trên nó thường đi chung với các từ như: *thông thường, gần như, phần lớn*. Lúc này, nó không phải là điều mà ai cũng biết nữa và nó cũng mất đi sự ràng buộc. Ví dụ:
+Tuy nhiên trong cuộc sống, quan hệ điều kiện trên nó thường đi chung với các từ như: _thông thường, gần như, phần lớn_. Lúc này, nó không phải là điều mà ai cũng biết nữa và nó cũng mất đi sự ràng buộc. Ví dụ:
 
 > Nếu mua áo sơ mi thì thường người ta cũng sẽ mua cà vạt.
 
@@ -53,15 +53,15 @@ $$water \Rightarrow snack = ?\%$$
 
 Tức là xác suất họ mua snack thì mua water là bao nhiêu? Và ngược lại.
 
-| TID | Items |
-| --- | --- |
-| 10 | sữa, chuối, nước lọc |
-| 20 | bánh, chuối, táo |
-| 30 | sữa, bánh, chuối, táo |
-| 40 | bánh, táo |
+| TID | Items                 |
+| --- | --------------------- |
+| 10  | sữa, chuối, nước lọc  |
+| 20  | bánh, chuối, táo      |
+| 30  | sữa, bánh, chuối, táo |
+| 40  | bánh, táo             |
 
--   **TID**: Transaction ID. Bạn có thể hiểu nó dùng để định danh. Mà định danh thì thích đặt gì không được miễn không trùng nhau, nên mình không đặt là 1,2,3,4 để tránh nhầm lẫn.
--   **Items**: Là các món hàng mà khách hàng mua ứng với mã số hoá đơn.
+- **TID**: Transaction ID. Bạn có thể hiểu nó dùng để định danh. Mà định danh thì thích đặt gì không được miễn không trùng nhau, nên mình không đặt là 1,2,3,4 để tránh nhầm lẫn.
+- **Items**: Là các món hàng mà khách hàng mua ứng với mã số hoá đơn.
 
 ## Luật kết hợp
 
@@ -69,13 +69,13 @@ $$X \Rightarrow Y$$
 
 $$X\subset I, Y \subset I \space | \space X \cap Y = \emptyset$$
 
--   I là **Items**, chứa danh sách các items mình theo dõi.
--   **Có nghĩa là**: $X$ kéo theo $Y$ thì $X$ và $Y$ là hai item khác nhau và phải nằm trong danh sách items đang xét, chứ đang xét snack trong bách hoá xanh mà tự dưng có ông nào đó đem snack ở tiệm tạp hoá xét ké làm sao mà được. Và có mặt thằng $X$ thì cũng có mặt thằng $Y$ với một xác suất nào đó.
+- I là **Items**, chứa danh sách các items mình theo dõi.
+- **Có nghĩa là**: $X$ kéo theo $Y$ thì $X$ và $Y$ là hai item khác nhau và phải nằm trong danh sách items đang xét, chứ đang xét snack trong bách hoá xanh mà tự dưng có ông nào đó đem snack ở tiệm tạp hoá xét ké làm sao mà được. Và có mặt thằng $X$ thì cũng có mặt thằng $Y$ với một xác suất nào đó.
 
 Giờ người ta mới suy nghĩ để tránh phải phát sinh các tập không có ý nghĩa thì người ta nghĩ ra hai độ đo:
 
--   **Độ support**: độ phổ biến, ký hiệu là $s$. Bạn có thể hiểu nó là xác suất để $X$ xuất hiện trong tất cả hoá đơn. Cách tìm độ support? Đếm chứ làm gì nữa, đếm $X$ xuất hiện bao nhiêu trong hoá đơn, ghi ra là xong. Độ phổ biến tổi thiểu là $s_{min}$.
--   **Độ confident**: độ tin cậy, ký hiệu là $c$. Là xác suất để $X \Rightarrow Y$ là bao nhiêu, là xác suất có điều kiện $P(Y|X)$, xác suất thằng $Y$ xảy ra khi có mặt thằng $X$ trong hoá đơn là bao nhiêu? Tức là mình tìm ra được cặp $X,Y$ rồi, tìm $X\Rightarrow Y=?\%$ hay $Y\Rightarrow X=?\%$. Độ tin cậy tối thiểu là $c_{min}$​.
+- **Độ support**: độ phổ biến, ký hiệu là $s$. Bạn có thể hiểu nó là xác suất để $X$ xuất hiện trong tất cả hoá đơn. Cách tìm độ support? Đếm chứ làm gì nữa, đếm $X$ xuất hiện bao nhiêu trong hoá đơn, ghi ra là xong. Độ phổ biến tổi thiểu là $s_{min}$.
+- **Độ confident**: độ tin cậy, ký hiệu là $c$. Là xác suất để $X \Rightarrow Y$ là bao nhiêu, là xác suất có điều kiện $P(Y|X)$, xác suất thằng $Y$ xảy ra khi có mặt thằng $X$ trong hoá đơn là bao nhiêu? Tức là mình tìm ra được cặp $X,Y$ rồi, tìm $X\Rightarrow Y=?\%$ hay $Y\Rightarrow X=?\%$. Độ tin cậy tối thiểu là $c_{min}$​.
 
 ### Bài toán khai thác luật kết hợp
 
@@ -88,7 +88,6 @@ $$c \lbrace X\rightarrow Y \rbrace > c_{min}$$
 Những tập $Z$ có độ phổ biến $s_Z \geqslant s_{min}$​ được gọi là Large Items.
 
 Những tập $Z$ có độ phổ biến $s_Z < s_{min}$​ được gọi là Small Items.
-
 
 ## Thuật toán Apriori
 
@@ -122,22 +121,22 @@ Nói dễ hiểu thế này, hội tóc đỏ (tập phổ biến) thì tất c�
 
 Lấy ví dụ bài toán của doanh nhân ở trên làm thử, họ yêu cầu $s_{min}=50 \\%$ và $c_{min}=80\\%$:
 
-| TID | Items |
-| --- | --- |
-| 10 | sữa, chuối, nước lọc |
-| 20 | bánh, chuối, táo |
-| 30 | sữa, bánh, chuối, táo |
-| 40 | bánh, táo |
+| TID | Items                 |
+| --- | --------------------- |
+| 10  | sữa, chuối, nước lọc  |
+| 20  | bánh, chuối, táo      |
+| 30  | sữa, bánh, chuối, táo |
+| 40  | bánh, táo             |
 
 Đầu tiên, chúng ta cần lập tập ứng viên 1-items. Ta đếm sự xuất hiện của nó trong CSDL. Ta được tập ứng viên candidate $C_1$​
 
-| Items | s |
-| --- | --- |
-| sữa | 2 |
-| bánh | 3 |
-| chuối | 3 |
-| nước lọc | 1 |
-| táo | 3 |
+| Items    | s   |
+| -------- | --- |
+| sữa      | 2   |
+| bánh     | 3   |
+| chuối    | 3   |
+| nước lọc | 1   |
+| táo      | 3   |
 
 Trước khi đi tiếp, ta đi tìm ý nghĩa của bảng trên. Sữa có độ phổ biến $s=3$ tức là nó xuất hiện $75\\%$. Tức là $75\\%$ hoá đơn có chứa sữa. Nếu so với $s_{min}=50\\%$ thì nó lớn hơn và thuộc về Large Items.
 
@@ -145,51 +144,51 @@ Nhưng các bạn thấy tìm kiểu $\\%$ thấy cực quá, tính toán nhiề
 
 Tới bước này, chúng ta sẽ so sánh và chỉ chọn những items nào $\geqslant s_{min}$​. Nên ta chỉ lấy items nào $\geqslant 2$ ta có được tập phổ biến $L_1$:
 
-| Items | s |
-| --- | --- |
-| sữa | 2 |
-| bánh | 3 |
-| chuối | 3 |
-| táo | 3 |
+| Items | s   |
+| ----- | --- |
+| sữa   | 2   |
+| bánh  | 3   |
+| chuối | 3   |
+| táo   | 3   |
 
 Khi có tập phổ biến $L1$​ ta tìm tập ứng viên $C2$​ bằng cách kết (join) các items lại với nhau. Tập ứng viên $C2$​:
 
-| Items | s |
-| --- | --- |
-| sữa, bánh | 1 |
-| sữa, chuối | 2 |
-| sữa, táo | 1 |
-| bánh, chuối | 2 |
-| bánh, táo | 3 |
-| chuối, táo | 2 |
+| Items       | s   |
+| ----------- | --- |
+| sữa, bánh   | 1   |
+| sữa, chuối  | 2   |
+| sữa, táo    | 1   |
+| bánh, chuối | 2   |
+| bánh, táo   | 3   |
+| chuối, táo  | 2   |
 
 $L2$ xoá các record có $s<s_{min}=2$:
 
-| Items | s |
-| --- | --- |
-| sữa, chuối | 2 |
-| bánh, chuối | 2 |
-| bánh, táo | 3 |
-| chuối, táo | 2 |
+| Items       | s   |
+| ----------- | --- |
+| sữa, chuối  | 2   |
+| bánh, chuối | 2   |
+| bánh, táo   | 3   |
+| chuối, táo  | 2   |
 
 Ta tìm tập ứng viên $C3$​:
 
-| Items | s |
-| --- | --- |
-| sữa, bánh, chuối | 1 |
-| sữa, bánh, chuối, táo | 1 |
-| sữa, chuối, táo | 1 |
-| bánh, chuối, táo | 2 |
+| Items                 | s   |
+| --------------------- | --- |
+| sữa, bánh, chuối      | 1   |
+| sữa, bánh, chuối, táo | 1   |
+| sữa, chuối, táo       | 1   |
+| bánh, chuối, táo      | 2   |
 
 Tập phổ biến $L3$​ xoá các ứng viên $<2$, ta được:
 
-| Items | s |
-| --- | --- |
-| bánh, chuối, táo | 2 |
+| Items            | s   |
+| ---------------- | --- |
+| bánh, chuối, táo | 2   |
 
 Ta không thể tìm được tập ứng viên $C4$​ vì vậy $C4=\emptyset$. Tới đây thuật toán dừng. Ta có được các tập 3 - items là {bánh, chuối, táo}.
 
-Dưới đây là bức hình mô tả tổng quan lại quá trình trên, với *A = sữa, B = bánh, C = chuối, D = nước lọc, E = táo*.
+Dưới đây là bức hình mô tả tổng quan lại quá trình trên, với _A = sữa, B = bánh, C = chuối, D = nước lọc, E = táo_.
 
 ![apriori](./apriori-demo.webp)
 
@@ -197,11 +196,11 @@ Ta có được tập phổ biến ta mới tìm xem luật kết hợp thế n�
 
 Ở đây có 3 items nên ta có nhiều luật kết hợp:
 
--   bánh → chuối, táo.
--   bánh, chuối → táo.
--   chuối, táo → bánh.
--   táo → chuối, bánh.
--   ...
+- bánh → chuối, táo.
+- bánh, chuối → táo.
+- chuối, táo → bánh.
+- táo → chuối, bánh.
+- ...
 
 Vậy giờ ta muốn tính xác suất của từng cái để xem ta có thể tin được bao nhiêu.
 
@@ -217,9 +216,9 @@ Vậy ta dựa vào $c_{min}=80\\%$ ta chỉ lấy thằng {bánh, chuối → t
 
 Thuật toán Apriori đơn giản, dễ hiểu dễ cài đặt. Tuy nhiên, Apriori có các nhược điểm:
 
--   Duyệt CSDL nhiều lần.
--   Tập ứng viên sinh ra rất lớn $2^n-1$.
--   Việc tính độ phổ biến nhiều.
+- Duyệt CSDL nhiều lần.
+- Tập ứng viên sinh ra rất lớn $2^n-1$.
+- Việc tính độ phổ biến nhiều.
 
 ## Tham khảo
 

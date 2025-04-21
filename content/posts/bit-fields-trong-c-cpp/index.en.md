@@ -1,9 +1,9 @@
 ---
 title: Bit Fields in C++ devide many variable with one byte
 date: 2021-04-12 17:00:00
-draft : false
+draft: false
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 
 tags: ["C/C++", "Tips"]
 categories: ["Programming"]
@@ -12,20 +12,22 @@ toc:
   auto: false
 
 resources:
-- name: "featured-image"
-  src: "bit-fields-trong-c-cpp.png"
-- name: "featured-image-preview"
-  src: "bit-fields-trong-c-cpp.png"
+  - name: "featured-image"
+    src: "bit-fields-trong-c-cpp.png"
+  - name: "featured-image-preview"
+    src: "bit-fields-trong-c-cpp.png"
 
 lightgallery: true
 ---
 
 Structs are essential in C/C++ for creating new data types that simplify variable management. However, a lesser-known feature of C/C++ structs is Bit Fields, which allow you to allocate a specific number of bits for a variable, optimizing memory usage.
+
 ## Introduction
 
 > Bit Fields allocate adjacent memory positions to hold a series of bits.
 
 For example, instead of using 8 bytes to store 8 flags (which would waste 54 bits), you can store them in a single byte by dividing the byte into different bit regions.
+
 ## Common Use Cases
 
 - Memory-constrained hardware.

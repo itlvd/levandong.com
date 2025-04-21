@@ -1,9 +1,9 @@
 ---
 title: Lưu trữ dữ liệu tốn ít tài nguyên hơn dựa vào bit trong CSharp
-date: 2024-08-06 
-draft : false
+date: 2024-08-06
+draft: false
 author: "Lê Văn Đông"
-authorLink: "https://www.levandong.com"
+authorLink: "https://www.levandong.dev"
 
 tags: ["C-Sharp", "Tips"]
 categories: ["Programming"]
@@ -12,13 +12,14 @@ toc:
   auto: true
 
 resources:
-- name: "featured-image"
-  src: "bit-field-c-sharp-like-cpp.png"
-- name: "featured-image-preview"
-  src: "bit-field-c-sharp-like-cpp.png"
+  - name: "featured-image"
+    src: "bit-field-c-sharp-like-cpp.png"
+  - name: "featured-image-preview"
+    src: "bit-field-c-sharp-like-cpp.png"
 
 lightgallery: true
 ---
+
 Việc [sử dụng bit trong C/C++](/bit-fields-trong-c-cpp) có lẽ các bạn đã quá quen thuộc rồi. Trong C/C++ có 1 phần khá hay là bit fields, bạn có thể tạo được nhiều biến chỉ với 1 byte, đương nhiên là trong khuôn khổ số bit đó thể hiện. Nay mình lên thêm một bài dành cho C#. Nói 1 cách chính xác thì nó không giống như bit fields trong C/C++. Nó không tối ưu size của biến trong quá trình runtime, nó dùng để tối ưu khi sử dụng để lưu trữ dữ liệu. Do đó, bài viết này không mô tả khái niệm bit fields mà là thủ thuật sử dụng bit để tối ưu dữ liệu để lưu trữ. Chúng ta sẽ đi xuyên suốt bài viết này và cùng so sánh điểm khác biệt giữa C/C++ và C#.
 
 ## Lý thuyết
@@ -35,7 +36,7 @@ Mình tạo một Attribute chứa thông tin về độ dài bit cần biểu d
 public class BitFieldsAttribute : Attribute
 {
   uint length;
-  public BitFieldsAttribute(uint length) 
+  public BitFieldsAttribute(uint length)
   {
     this.length = length;
   }
@@ -46,6 +47,7 @@ public class BitFieldsAttribute : Attribute
   }
 }
 ```
+
 Bây giờ chúng ta có thể tạo 1 struct nào đó để thử nghiệm.
 
 ```c#
@@ -84,7 +86,7 @@ public static class Convertion{
         if (attrs.Length == 1)
         {
           // Lấy ra số lượng bit mà đã cài đặt
-          uint fieldLength = ((BitFieldsAttribute)attrs[0]).Length; 
+          uint fieldLength = ((BitFieldsAttribute)attrs[0]).Length;
 
           // Tạo ra bitmask để biểu diễn độ dài của số bit đã cài đặt - tức là fieldLength;
           long mask = 0;
@@ -188,4 +190,5 @@ Vì bên C/C++ nó thực sự là Bit fields, khi bạn định nghĩa nó ch�
 Ngoài ra, nếu bạn có cách nào khác thì có thể nói mình tìm hiểu thêm về cách này sao cho tối ưu nhất nhé. Cảm ơn các bạn.
 
 ## Tham khảo
+
 [Stackoverflow](https://stackoverflow.com/a/14591)
