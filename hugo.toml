@@ -30,7 +30,7 @@ hasCJKLanguage = false
 # copyright description used only for seo schema
 copyright = ""
 # whether to use robots.txt
-enableRobotsTXT = true
+enableRobotsTXT = false
 # whether to use git commit log
 enableGitInfo = true
 # whether to use emoji code
